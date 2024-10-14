@@ -21,10 +21,10 @@
     --brand-primary: #009688;
     --brand-primary-contrast: white;
     --bg-light: color-mix(in sRGB, var(--brand-primary), var(--page-bg) 90%);
+    
     --font-family-base: "Source Sans 3", sans-serif; 
     --font-family-headings: "Source Serif 4", serif; 
     --minimus-clicable-area: 44px;
-
     --primary-brand: #009688;
     --primary-contrast: #020303;
     --primary-bg: #009688;
