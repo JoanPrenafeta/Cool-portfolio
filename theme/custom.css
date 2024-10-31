@@ -2,13 +2,8 @@
 
 :root{
     --page-bg: #FDF7F2;
-    --header-bg: rgba(255,255,255,0.8);
-    --header-color: #212121;
     --base-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    --accent-color: var(--brand-primary);
-    --accent-color: var(--primary-dark-minimum);
-    accent-color: var(--accent-color);
-    --link-color: #004d40;
+    --link-color: var(--primary-accessible);
     --link-color-hover: var(--accent-color);
     --footer-bg: #c7d1d0;
     --footer-color: #00665c;
@@ -33,7 +28,41 @@
     --primary-dark-min: #008577;
     --primary-light: #99fff5;
     --primary-light-min: #009485;
+    
+    --primary-accessible: var(--primary-dark-min);
+    
+    --header-bg: white;
+    --header-color-hover: var(var(--primary-dark));
+    --accent-color: var(--primary-accessible);
+    accent-color: var(--accent-color);
 }
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      /* Variables per al mode fosc */
+        --page-bg: #121212;
+        --text-color: #ffffff;
+        --header-bg: black;
+        --primary-accessible: var(--primary-light-min);
+        --header-color-hover: var(var(--primary-light));
+    }
+    .image-theme .dark{
+        display: block;
+    }
+    .image-theme .light{
+        display: none;
+    }
+  }
+
+  .image-theme .dark{
+    display: none;
+    }
+    .image-theme .light{
+        display: block;
+    }
+
 
 *{
     accent-color: var(--accent-color)!important;
@@ -154,7 +183,7 @@ h6, .h6{
 
 /* Header */
 header.custom-header{
-    background-color: var(--header-bg);
+    background-color: color-mix(in sRGB, var(--header-bg), transparent 20%);
     backdrop-filter: blur(20px);
     z-index: 1000;
     box-shadow: var(--base-shadow);
@@ -186,8 +215,8 @@ header.custom-header .site-logo{
     gap: 16px;
 }
 
-header.custom-header .site-logo a{
-    color: var(--header-color);
+header.custom-header a.site-logo{
+    color: var(--primary-accessible);
     text-decoration: none;
     font-size: 2rem;
 }
@@ -216,6 +245,7 @@ header.custom-header nav ul a{
 
 header.custom-header nav ul a.selected{
     font-weight: 700;
+    color: var(--header-color-hover);
 }
 
 /*Tablet*/
