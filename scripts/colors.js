@@ -473,5 +473,8 @@ var HSLToHex = function(h, s, l) {
 }
 
 var starterPrimary = HSLToHex(Math.floor(Math.random() * (360 - 0 + 1)) + 0, Math.floor(Math.random() * (100 - 60 + 1)) + 50, Math.floor(Math.random() * (80 - 20 + 1)) + 20);
-console.log(starterPrimary);
 generarPaletaCSS("AA", starterPrimary);
+
+
+const userLang = navigator.language || navigator.userLanguage;
+console.log("L'idioma preferit de l'usuari és:", userLang);
