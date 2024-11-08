@@ -253,9 +253,9 @@ a#main-redirection:focus{
 header{
     padding: 10px 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: sticky;
 }
 header a#site-logo{
@@ -268,13 +268,20 @@ header a#site-logo:focus{
 }
 header nav ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 18px;
 }
 
-
-
+@media (min-width: 992px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav ul{
+        flex-direction: row;
+    }
+}
 
 /*Main*/
 body.portada main{
@@ -300,6 +307,7 @@ body.portada main section#splash-section{
 body.portada main section#splash-section img{
     aspect-ratio: 1;
     border-radius: var(--radius-xl);
+    object-fit: contain;
     width: 100%;
 }
 
@@ -463,7 +471,9 @@ body.portada main section#aboutMe img{
     aspect-ratio: 1;
     border-radius: var(--radius-xl);
     width: 100%;
-    background-color: color-mix(in srgb, var(--primary-accessible) 40%, var(--page-bg));;
+    background-color: color-mix(in srgb, var(--primary-accessible) 40%, var(--page-bg));
+    object-fit: contain;
+
 }
 
 body.portada main section#aboutMe .info{
@@ -507,9 +517,17 @@ body.portada main section#aboutMe .info a.btn{
 footer{
     padding: 20px 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
+
+@media (min-width: 992px) {
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 
 
