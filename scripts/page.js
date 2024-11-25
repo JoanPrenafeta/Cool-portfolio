@@ -472,9 +472,12 @@ var HSLToHex = function(h, s, l) {
     return "#" + r + g + b;
 }
 
-var starterPrimary = HSLToHex(Math.floor(Math.random() * (360 - 0 + 1)) + 0, Math.floor(Math.random() * (100 - 60 + 1)) + 50, Math.floor(Math.random() * (80 - 20 + 1)) + 20);
-generarPaletaCSS("AA", starterPrimary);
+var starterPrimary = new Color(Colors.randomColor());
+//generarPaletaCSS("AA", starterPrimary.hex);
+var pagePalette = Colors.generatePalette(starterPrimary.hex);
 
-
-const userLang = navigator.language || navigator.userLanguage;
-console.log("L'idioma preferit de l'usuari és:", userLang);
+document.documentElement.style.setProperty('--primary-brand', pagePalette.basic.hex);
+document.documentElement.style.setProperty('--primary-dark', pagePalette.dark.hex);
+document.documentElement.style.setProperty('--primary-dark-min', pagePalette.darkMin.hex);
+document.documentElement.style.setProperty('--primary-light', pagePalette.light.hex);
+document.documentElement.style.setProperty('--primary-light-min', pagePalette.lightMin.hex);
