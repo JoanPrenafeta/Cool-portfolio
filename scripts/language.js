@@ -1,5 +1,6 @@
 let userLanguage = navigator.language || navigator.userLanguage;
 var link = window.location.href;
+
 if (!(link.includes("/ca/") ||  link.includes("/en/") || link.includes("/es/"))){
     let baseURL = link.split("/Cool-portfolio/")[0];
     baseURL += "/Cool-portfolio/"
@@ -14,9 +15,6 @@ if (!(link.includes("/ca/") ||  link.includes("/en/") || link.includes("/es/")))
         basehtml="en"
     }
     basehtml += "/index.html"
-
-debugger
-
     window.open(baseURL+basehtml, '_self');
 }
 
