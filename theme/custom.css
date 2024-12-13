@@ -85,7 +85,7 @@ strong{
 }
 
 ::selection {
-    background-color: color-mix(in srgb, (--secondary-light), transparent 50%);
+    background-color: color-mix(in srgb, var(--secondary-light), transparent 50%);
 
 }
 
@@ -114,7 +114,7 @@ ul.unstyled-list{
     }
 
     ::selection {
-        background-color: color-mix(in srgb, (--secondary-dark), transparent 50%);
+        background-color: color-mix(in srgb, var(--secondary-dark), transparent 50%);
     }
 }
 
