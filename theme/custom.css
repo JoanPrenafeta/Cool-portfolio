@@ -589,6 +589,7 @@ footer ul li{
     background-color: var(--primary-accessible);
     color: var(--page-bg);
     transform: translateY(50%, -5px);
+    text-decoration: none!important;
 }
 
 @media (min-width: 768px) {
