@@ -85,8 +85,7 @@ strong{
 }
 
 ::selection {
-    background-color: var(--secondary-light);
-    color: color-mix(in srgb, var(--secondary-brand), var(--text-color) 80%);
+    background-color: color-mix(in srgb, (--secondary-light), transparent 50%);
 
 }
 
@@ -115,7 +114,7 @@ ul.unstyled-list{
     }
 
     ::selection {
-        background-color: var(--secondary-dark);
+        background-color: color-mix(in srgb, (--secondary-dark), transparent 50%);
     }
 }
 
@@ -165,7 +164,10 @@ html {
     font-weight: 900;
 }
 
-
+.language-selector ul{
+    display: flex;
+    flex-direction: row;
+}
 
 button, input,select{
     min-height: var(--minimus-clicable-area);
