@@ -562,5 +562,43 @@ footer ul li{
     }
 }
 
+#scroll-up{
+    display: flex;
+    width: var(--minimus-clicable-area);
+    height:  var(--minimus-clicable-area);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 
+    color: var(--primary-accessible);
+    background-color: var(--page-bg);
+    border-radius: var(--radius-xl);
 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    transition: var(--base-transition);
+    opacity: 0.3;
+}
+
+#scroll-up:hover,
+#scroll-up:focus,
+#scroll-up:active{
+    opacity: 1;
+    background-color: var(--primary-accessible);
+    color: var(--page-bg);
+    transform: translateY(50%, -5px);
+}
+
+@media (min-width: 768px) {
+    #scroll-up{
+        right: 50%;
+        transform: translateX(50%);
+    }
+    #scroll-up:hover,
+    #scroll-up:focus,
+    #scroll-up:active{
+        transform: translate(50%, -5px);
+    }
+}
