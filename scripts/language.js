@@ -1,14 +1,22 @@
 let userLanguage = navigator.language || navigator.userLanguage;
-let baseURL = "https://joanprenafeta.github.io/Cool-portfolio/";
-var basehtml = "index.html";
-if (userLanguage == "es-ES" || userLanguage.includes("es")){
-    basehtml="index_ES.html";
-} 
-else if (userLanguage == "ca" || userLanguage.includes("ca")){
-    basehtml="index_CA.html";
-}
 var link = window.location.href;
-if (!link.includes(basehtml) && link.includes("joanprenafeta.github.io/")){
+if (!(link.includes("/ca/") ||  link.includes("/en/") || link.includes("/es/"))){
+    let baseURL = link.split("/Cool-portfolio/")[0];
+    baseURL += "/Cool-portfolio/"
+    var basehtml = "";
+    if (userLanguage == "es-ES" || userLanguage.includes("es")){
+        basehtml="es";
+    } 
+    else if (userLanguage == "ca" || userLanguage.includes("ca")){
+        basehtml="ca";
+    }
+    else{
+        basehtml="en"
+    }
+    basehtml += "/index.html"
+
+debugger
+
     window.open(baseURL+basehtml, '_self');
 }
 

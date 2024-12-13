@@ -157,6 +157,14 @@ html {
     }
 }
 
+.language-selector a{
+    font-weight: 300;
+}
+
+.language-selector a[aria-selected="true"]{
+    font-weight: 900;
+}
+
 
 
 button, input,select{
