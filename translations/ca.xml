@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <string id="page_title">Joan Prenafeta | Cool portfolio</string>
+
+    <string id="skip_to_main_content">Anar al contingut principal</string>
+    <string id="header_site_logo_title">Anar a la pàgina principal</string>
+    <string id="nav_projects">Projectes</string>
+    <string id="nav_projects_title">Anar a la secció projectes</string>
+    <string id="nav_skills">Habilitats</string>
+    <string id="nav_skills_title">Anar a la secció habilitats</string>
+    <string id="nav_about_me">Sobre mi</string>
+    <string id="nav_about_me_title">Anar a la secció sobre mi</string>
+    <string id="nav_awesome_tools_title">Anar a l'eina Awesome-tools. S'obra en una nova pestanya</string>
+    
+    <string id="lang_ca_title">Català</string>
+    <string id="lang_es_title">Castellano</string>
+    <string id="lang_en_title">English</string>
+
+    <string id="main_h1_sr_only">Portafolis del Joan Prenafeta.</string>
+    <string id="splash_greeting">Hola, soc el Joan Prenafeta, un</string>
+    <string id="splash_role_uxui">dissenyador UX&amp;UI</string>
+    <string id="splash_intro_part_2">a qui li agrada crear les millors experiències a tota mena d'usuaris. Ah! Per cert, també soc</string>
+    <string id="splash_role_frontend">programador Front-end</string>
+    <string id="splash_avatar_aria">Joan Prenafeta amb un estil pixel-art</string>
+    
+    <string id="projects_title">Projectes</string>
+    <string id="projects_description">No puc dir els projectes en els quals he treballat. Però aquí us deixo les principals tasques.</string>
+    
+    <string id="project_accessibility_name">Control d'accessibilitat</string>
+    <string id="project_accessibility_description">He fet diversos controls per garantir que els llocs web assoleixen les pautes WCAG</string>
+
+    <string id="project_uxui_name">Disseny UX&amp;UI i maquetació</string>
+    <string id="project_uxui_description">He dissenyat algunes de les webs d'institucions públiques més importants que poden arribar fins a 100.000 visitants mensuals.</string>
+    
+    <string id="project_programming_name">Programació</string>
+    <string id="project_programming_description">He treballat com a programador tant front-end com back-end en diferents programaris per gestionar hospitals i veterinàries.</string>
+    
+    <string id="skills_title">Què puc fer?</string>
+    <string id="skills_description">Algunes de les meves habilitats són:</string>
+    <string id="skill_uxui">Disseny UX/UI</string>
+    <string id="skill_frontend">Front-end</string>
+    <string id="skill_accessibility">Accessibilitat</string>
+    <string id="skill_scrum">SCRUM</string>
+    <string id="skill_teamwork">Treball en equip</string>
+
+    <string id="about_me_img_alt">Retrat del Joan Prenafeta</string>
+    <string id="about_me_title">Qui soc?</string>
+    <string id="about_me_p1_part1">Sóc un</string>
+    <string id="about_me_p1_role">dissenyador d'UX/UI</string>
+    <string id="about_me_p1_part2">amb experiència en desenvolupament front-end.Anteriorment, vaig treballar com a desenvolupador Full Stack, tot i que sempre em va atraure més el</string>
+    <string id="about_me_p1_frontend_bold">front-end</string>
+    <string id="about_me_p1_part3">, especialment el disseny d'UX/UI. Per això, vaig decidir especialitzar-me, i ara porto diversos anys creant experiències d'usuari intuïtives i atractives.</string>
+    <string id="about_me_p2">La meva formació tècnica i experiència en desenvolupament em permeten entendre profundament com es tradueixen els dissenys en codi funcional i viceversa.</string>
+    <string id="about_me_p3">T'ha agradat el que has llegit fins ara? Genial! Perquè puc oferir molt més. No dubtis a posar-te en contacte!</string>
+    <string id="about_me_btn_know_more">Coneix-me més</string>
+    <string id="about_me_btn_know_more_title">Ves a la pàgina sobre el Joan. S'obra en la mateixa pestanya.</string>
+    <string id="about_me_btn_message">Envia'm un missatge</string>
+    <string id="about_me_btn_message_title">Envia un missatge des de linkedIn</string>
+
+    <string id="footer_last_update">Última actualització: Desembre de 2025</string>
+    <string id="footer_social_heading">Les meves xarxes socials</string>
+</translations>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <string id="page_title">Joan Prenafeta | Cool portfolio</string>
+
+    <string id="skip_to_main_content">Ir al contenido principal</string>
+    <string id="header_site_logo_title">Ir a la página principal</string>
+    <string id="nav_projects">Proyectos</string>
+    <string id="nav_projects_title">Ir a la sección proyectos</string>
+    <string id="nav_skills">Habilidades</string>
+    <string id="nav_skills_title">Ir a la sección habilidades</string>
+    <string id="nav_about_me">Sobre mí</string>
+    <string id="nav_about_me_title">Ir a la sección sobre mí</string>
+    <string id="nav_awesome_tools_title">Ir a la herramienta Awesome-tools. Se abre en una nueva pestaña</string>
+    
+    <string id="lang_ca_title">Català</string>
+    <string id="lang_es_title">Castellano</string>
+    <string id="lang_en_title">English</string>
+
+    <string id="main_h1_sr_only">Portafolio de Joan Prenafeta.</string>
+    <string id="splash_greeting">Hola, soy Joan Prenafeta, un</string>
+    <string id="splash_role_uxui">diseñador UX&amp;UI</string>
+    <string id="splash_intro_part_2">a quien le gusta crear las mejores experiencias para todo tipo de usuarios. ¡Ah! Por cierto, también soy</string>
+    <string id="splash_role_frontend">programador Front-end</string>
+    <string id="splash_avatar_aria">Joan Prenafeta con un estilo pixel-art</string>
+    
+    <string id="projects_title">Proyectos</string>
+    <string id="projects_description">No puedo revelar los proyectos en los que he trabajado. Pero aquí os dejo mis principales tareas.</string>
+    
+    <string id="project_accessibility_name">Control de accesibilidad</string>
+    <string id="project_accessibility_description">He realizado varios controles para garantizar que los sitios web cumplen con las pautas WCAG</string>
+
+    <string id="project_uxui_name">Diseño UX&amp;UI y maquetación</string>
+    <string id="project_uxui_description">He diseñado algunas de las webs de instituciones públicas más importantes que pueden alcanzar hasta 100.000 visitantes mensuales.</string>
+    
+    <string id="project_programming_name">Programación</string>
+    <string id="project_programming_description">He trabajado como programador tanto front-end como back-end en diferentes softwares para gestionar hospitales y veterinarias.</string>
+    
+    <string id="skills_title">¿Qué puedo hacer?</string>
+    <string id="skills_description">Algunas de mis habilidades son:</string>
+    <string id="skill_uxui">Diseño UX/UI</string>
+    <string id="skill_frontend">Front-end</string>
+    <string id="skill_accessibility">Accesibilidad</string>
+    <string id="skill_scrum">SCRUM</string>
+    <string id="skill_teamwork">Trabajo en equipo</string>
+
+    <string id="about_me_img_alt">Retrato de Joan Prenafeta</string>
+    <string id="about_me_title">¿Quién soy?</string>
+    <string id="about_me_p1_part1">Soy un</string>
+    <string id="about_me_p1_role">diseñador de UX/UI</string>
+    <string id="about_me_p1_part2">con experiencia en desarrollo front-end. Anteriormente, trabajé como desarrollador Full Stack, aunque siempre me atrajo más el</string>
+    <string id="about_me_p1_frontend_bold">front-end</string>
+    <string id="about_me_p1_part3">, especialmente el diseño de UX/UI. Por eso, decidí especializarme, y ahora llevo varios años creando experiencias de usuario intuitivas y atractivas.</string>
+    <string id="about_me_p2">Mi formación técnica y experiencia en desarrollo me permiten entender profundamente cómo se traducen los diseños en código funcional y viceversa.</string>
+    <string id="about_me_p3">¿Te ha gustado lo que has leído hasta ahora? ¡Genial! Porque puedo ofrecer mucho más. ¡No dudes en contactar!</string>
+    <string id="about_me_btn_know_more">Conóceme más</string>
+    <string id="about_me_btn_know_more_title">Ir a la página sobre Joan. Se abre en la misma pestaña.</string>
+    <string id="about_me_btn_message">Envíame un mensaje</string>
+    <string id="about_me_btn_message_title">Enviar un mensaje desde LinkedIn</string>
+
+    <string id="footer_last_update">Última actualización: Diciembre de 2025</string>
+    <string id="footer_social_heading">Mis redes sociales</string>
+</translations>
