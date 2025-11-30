@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
-    <title>Joan Prenafeta | Cool portfolio</title>
+    <title data-i18n-key="page_title">Joan Prenafeta | Cool portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -19,33 +19,37 @@
 <body class="portada" id="body">
     <header>
         <div>
-          <a href="#main" class="sr-only" id="main-redirection" target="_self">Go to main content</a>
-          <a href="https://joanprenafeta.github.io/Cool-portfolio/" target="_top" id="site-logo" class="h3" title="Go to main page">Joan Prenafeta</a>
+          <a href="#main" class="sr-only" id="main-redirection" target="_self" data-i18n-key="skip_to_main_content">Anar al contingut principal</a>
+          <a href="https://joanprenafeta.github.io/Cool-portfolio/" target="_top" id="site-logo" class="h3" data-i18n-key="header_site_logo_title" data-i18n-attr="title" title="Anar a la pàgina principal">TOAN</a>
         </div>
         
-        <nav aria-label="Language selector"  class="language-selector">
-          <ul class="unstyled-list">
-            <li><a href="../ca/" title="Català" target="_self">CA</a></li>
-            <li><a href="../es/" title="Castellano" target="_self">ES</a></li>
-            <li><a href="../en/" title="English" target="_self">EN</a></li>
-          </ul>
-        </nav>
-
         <nav aria-label="Main menu">
             <ul class="unstyled-list">
-                <li><a href="#projects" title="Go to projects" target="_self">Projects</a></li>
-                <li><a href="#skills" title="Go to skills" target="_self">Skills</a></li>
-                <li><a href="#aboutMe" title="Go to about me" target="_self">About me</a></li>
-                <li><a target="_blank" href="https://joanprenafeta.github.io/Awesome-Tools/" title="Go to Awsome tools. Opens a new tab">Awesome Tools</a></li>
+                <li><a href="#projects" data-i18n-key="nav_projects_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_projects">Projectes</span></a></li>
+                <li><a href="#skills" data-i18n-key="nav_skills_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_skills">Habilitats</span></a></li>
+                <li><a href="#aboutMe" data-i18n-key="nav_about_me_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_about_me">Sobre mi</span></a></li>
+                <li><a target="_blank" href="https://joanprenafeta.github.io/Awesome-Tools/" data-i18n-key="nav_awesome_tools_title" data-i18n-attr="title">Awesome Tools</a></li>
             </ul>
+        </nav>
+        <nav aria-label="Selector d'idioma"  class="language-selector">
+          <ul class="unstyled-list">
+            <li><a href="" title="Català" target="_self" lang="ca">CA</a></li>
+            <li><a href="" title="Castellano" target="_self" lang="es">ES</a></li>
+            <li><a href="" title="English" target="_self" lang="en">EN</a></li>
+          </ul>
         </nav>
     </header>
     
     <main id="main">
-        <h1 class="sr-only">Joan Prenafeta's portfolio.</h1>
+        <h1 class="sr-only" data-i18n-key="main_h1_sr_only">Portafolis del Joan Prenafeta.</h1>
         <section id="splash-section">
-            <p class="h4 font-base">I’m Joan Prenafeta, a <span class="text-primary-AA">UX&UI Designer</span> passionate about creating the best experiences for all users. Oh, and by the way, I’m also a <span class="text-primary-AA">Front-end developer</span>.</p>
-            <svg id="avatarSVG" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 480 480" aria-label="Joan Prenafeta with pixel-art style" >
+            <p class="h4 font-base" data-i18n-key="splash_greeting_p">
+                <span data-i18n-key="splash_greeting">Hola, soc el Joan Prenafeta, un</span>
+                <span class="text-primary-AA" data-i18n-key="splash_role_uxui">dissenyador UX&UI</span>
+                <span data-i18n-key="splash_intro_part_2">a qui li agrada crear les millors experiències a tota mena d'usuaris. Ah! Per cert, també soc</span>
+                <span class="text-primary-AA" data-i18n-key="splash_role_frontend">programador Front-end</span>.
+            </p>
+            <svg id="avatarSVG" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 480 480" data-i18n-key="splash_avatar_aria" data-i18n-attr="aria-label">
                 <path d="M110,355v-30h10v-10h10v-10h20v-10h10v-10h10v-10h10v-10h10v-10h30v-10h-10v-10h-10v-10h-10v-10h-20v-40h-10v-20h10v-10h10v-30h-50v-10h10v-10h20v-10h-10v-10h-10v-10h10v-10h20v-10h-10v-10h50v-10h30v10h50v10h10v10h10v-20h10v30h10v-10h10v-10h10v20h-10v10h10v10h10v10h-10v30h-10v30h10v20h-10v10h-10v10h-10v20h-10v10h-10v10h-10v10h20v10h20v10h10v10h10v20h10v10h10v20h10v40h-10v10h-30v10h10v20h10v20h-10v10h-10v10h20v-10h10v10h20v10H100v-10h50v-10h-20v-20h-10v-10h-10v-10h-10v-30h10v-10ZM190,325v10h-10v30h10v10h10v-50h-10Z"/>
                 <path fill="#683149" d="M330,155v20h-10v-20h10Z"/>
                 <g fill="#175446">
@@ -221,29 +225,29 @@
         
         <section id="projects">
             <div>
-                <h2>Projects</h2>
-                <p class="description">I can't tell the projects which I worked too. But there are some branches.</p>
+                <h2 data-i18n-key="projects_title">Projectes</h2>
+                <p class="description" data-i18n-key="projects_description">No puc dir els projectes en els quals he treballat. Però aquí us deixo les principals tasques.</p>
             </div>
             <ul id="projects-list" class="unstyled-list" aria-label="">
                 <li>
-                    <article class="project-item">                        
-                        <i class="fa-solid fa-universal-access" alt=""></i>
-                        <p class="h5 font-base project-item-name">Accessibility assurance</p>
-                        <p class="project-item-description">I've done some accessibility assurance to check and fix if some websites haven't reached WCAG rules.</p>
+                    <article class="project-item"> 
+                        <i class="fa-solid fa-universal-access" data-i18n-attr="alt" data-i18n-key="project_accessibility_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_accessibility_name">Control d'accessibilitat</p>
+                        <p class="project-item-description" data-i18n-key="project_accessibility_description">He fet diversos controls per garantir que els llocs web assoleixen les pautes WCAG</p>
                     </article>
-                </li>    
+                </li> 
                 <li>
                     <article class="project-item highlight">
-                        <i class="fa-brush fa-solid" alt=""></i>
-                        <p class="h5 font-base project-item-name">UX&UI Design and styling</p>
-                        <p class="project-item-description">I've designed some of the most important public's institution's websites which at least 100.000 monthly visitors.</p>
+                        <i class="fa-brush fa-solid" data-i18n-attr="alt" data-i18n-key="project_uxui_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_uxui_name">Disseny UX&UI i maquetació</p>
+                        <p class="project-item-description" data-i18n-key="project_uxui_description">He dissenyat algunes de les webs d'institucions públiques més importants que poden arribar fins a 100.000 visitants mensuals.</p>
                     </article>
                 </li>
                 <li>
                     <article class="project-item">
-                        <i class="fa-solid fa-code" alt=""></i>
-                        <p class="h5 font-base project-item-name">Coding</p>
-                        <p class="project-item-description">I've worked on some software to manage hospitals and veretinarian as front-end and back-end developer.</p>
+                        <i class="fa-solid fa-code" data-i18n-attr="alt" data-i18n-key="project_programming_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_programming_name">Programació</p>
+                        <p class="project-item-description" data-i18n-key="project_programming_description">He treballat com a programador tant front-end com back-end en diferents programaris per gestionar hospitals i veterinàries.</p>
                     </article>
                 </li>
             </ul>
@@ -251,11 +255,11 @@
 
         <section id="skills">
             <div>
-                <h2>What can I do?</h2>
-                <p class="description">Some of my skills and habilities are:</p>
+                <h2 data-i18n-key="skills_title">Què puc fer?</h2>
+                <p class="description" data-i18n-key="skills_description">Algunes de les meves habilitats són:</p>
             </div>
             <ul class="unstyled-list" aria-label="">
-                <li><i class="fa-solid fa-palette"></i><p>UX/UI design</p></li>
+                <li><i class="fa-solid fa-palette"></i><p data-i18n-key="skill_uxui">Disseny UX/UI</p></li>
                 <li><i class="fa-brands fa-figma"></i><p>Figma</p></li>
                 <li><i class="fa-solid fa-mobile"></i></i><p>Adobe XD</p></li>
                 <li><i class="fa-solid fa-image"></i><p>Adobe Photoshop</p></li>
@@ -263,21 +267,32 @@
                 <li><i class="fa-brands fa-html5"></i><p>HTML</p></li>
                 <li><i class="fa-brands fa-css3-alt"></i><p>CSS</p></li>
                 <li><i class="fa-brands fa-js"></i><p>JavaScript</p></li>
-                <li><i class="fa-solid fa-code"></i><p>Front-end</p></li>
-                <li><i class="fa-brands fa-accessible-icon"></i><p>Accessibility</p></li>
-                <li><i class="fa-solid fa-arrows-spin"></i><p>SCRUM</p></li>
-                <li><i class="fa-solid fa-people-group"></i><p>Team working</p></li>
+                <li><i class="fa-solid fa-code"></i><p data-i18n-key="skill_frontend">Front-end</p></li>
+                <li><i class="fa-brands fa-accessible-icon"></i><p data-i18n-key="skill_accessibility">Accessibilitat</p></li>
+                <li><i class="fa-solid fa-arrows-spin"></i><p data-i18n-key="skill_scrum">SCRUM</p></li>
+                <li><i class="fa-solid fa-people-group"></i><p data-i18n-key="skill_teamwork">Treball en equip</p></li>
             </ul>
         </section>
 
         <section id="aboutMe">
-            <img src="img/me.png" alt="Joan Prenafeta's portrait" loading="lazy">
+            <img src="img/me.png" data-i18n-key="about_me_img_alt" data-i18n-attr="alt" loading="lazy">
             <div class="info">
-                <h2>Who am I?</h2>
-                <p class="description">I am a <strong>UX/UI designer</strong> with experience in front-end development. Previously, I worked as a Full Stack developer, although I was always more drawn to <strong>front-end</strong>, especially UX/UI design. Because of this, I decided to specialize, and now I have been creating intuitive and engaging user experiences for several years.</p>
-                <p class="description">My technical background and development experience allow me to deeply understand how designs are translated into functional code and vice versa.</p>
-                <p class="description">Did you like what you've read so far? Cool! Because there is much more I can offer. Feel free to reach out!</p>
-                <a class="btn" href="https://www.linkedin.com/messaging/compose/?recipient=joan-prenafeta-sur%C3%ADs-162254108" target="_blank" title="Send a message via linkedIn">Send me a message</a>
+                <h2 data-i18n-key="about_me_title">Qui soc?</h2>
+                <p class="description" data-i18n-key="about_me_p1_full">
+                    <span data-i18n-key="about_me_p1_part1">Sóc un </span>
+                    <strong data-i18n-key="about_me_p1_role">dissenyador d'UX/UI</strong>
+                    <span data-i18n-key="about_me_p1_part2"> amb experiència en desenvolupament front-end.Anteriorment, vaig treballar com a desenvolupador Full Stack, tot i que sempre em va atraure més el </span>
+                    <strong data-i18n-key="about_me_p1_frontend_bold">front-end</strong>
+                    <span data-i18n-key="about_me_p1_part3">, especialment el disseny d'UX/UI. Per això, vaig decidir especialitzar-me, i ara porto diversos anys creant experiències d'usuari intuïtives i atractives.</span>
+                </p>
+                <p class="description" data-i18n-key="about_me_p2">La meva formació tècnica i experiència en desenvolupament em permeten entendre profundament com es tradueixen els dissenys en codi funcional i viceversa.</p>
+                <p class="description" data-i18n-key="about_me_p3">T'ha agradat el que has llegit fins ara? Genial! Perquè puc oferir molt més. No dubtis a posar-te en contacte!</p>
+                <a class="btn" href="aboutMe.html" target="_self" data-i18n-key="about_me_btn_know_more_title" data-i18n-attr="title">
+                    <span data-i18n-key="about_me_btn_know_more">Coneix-me més</span>
+                </a>
+                <a class="btn" href="https://www.linkedin.com/messaging/compose/?recipient=joan-prenafeta-sur%C3%ADs-162254108" target="_blank" data-i18n-key="about_me_btn_message_title" data-i18n-attr="title">
+                    <span data-i18n-key="about_me_btn_message">Envia'm un missatge</span>
+                </a>
             </div>
         </section>
     </main>
@@ -285,11 +300,11 @@
     <footer>
         <div>
             <p class="h4">Joan Prenafeta Surís</p>
-            <p>Last updated: November 2024</p>
+            <p data-i18n-key="footer_last_update">Última actualització: Desembre de 2025</p>
         </div>
 
         <nav aria-labelledby="SocialHeading">
-            <p class="h6" id="SocialHeading">My social networks</p>
+            <p class="h6" id="SocialHeading" data-i18n-key="footer_social_heading">Les meves xarxes socials</p>
             <ul class="unstyled-list">
                 <li><a href="https://www.linkedin.com/in/joan-prenafeta-sur%C3%ADs-162254108/" target="_blank" class="h3">
                     <i class="fa-brands fa-linkedin-in"></i>

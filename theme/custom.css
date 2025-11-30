@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
 
 
 :root{
 
     /*Tipography*/
-    --font-family-base: "Source Sans 3", sans-serif;
-    --font-family-headings: "Source Serif 4", serif;
+    --font-family-base: "Atkinson Hyperlegible Next", sans-serif;
+    --font-family-headings: "Atkinson Hyperlegible Next", sans-serif;
     --font-size-base: 16px;
     --font-size-h1: 2.986rem;
     --font-size-h2: 2.488rem;
@@ -46,6 +46,7 @@
     --link-color: var(--primary-accessible);
     --link-color-hover: var(--primary-dark);
     --spacing-ingline: 30px;
+    --layout-max-width: 100%;
     --base-transition: all 0.2s;
     --base-gap: 30px;
     --big-gap: 80px;
@@ -118,7 +119,7 @@ ul.unstyled-list{
     }
 }
 
-@media (min-width: var(--tablet-break)) {
+@media (min-width: 768px) {
     :root{
         --spacing-ingline: 75px;
         --big-gap: 50px;
@@ -140,6 +141,14 @@ ul.unstyled-list{
 @media (min-width: 1200px) {
     :root{
         --big-gap: 100px;
+    }
+}
+
+/*Desktop XL*/
+@media (min-width: 3840px) {
+    :root{
+        --big-gap: 100px;
+        --layout-max-width: 3600px;
     }
 }
 
@@ -180,6 +189,7 @@ body{
     margin: 0;
     color: var(--text-color);
     background: var(--page-bg);
+    margin-top: 0;
     -webkit-font-smoothing: antialiased;
     
 }
@@ -284,12 +294,13 @@ header{
     position: sticky;
 }
 header a#site-logo{
-    color: var(--text-color);
+    color: var(--primary-accessible);
+    font-weight: 800;
 }
 header a#site-logo:hover,
 header a#site-logo:focus{
-    color: var(--link-color);
-    text-decoration: unset;
+    color: var(--link-color-hover);
+    text-decoration: underline;
 }
 header nav ul{
     display: flex;
@@ -312,11 +323,14 @@ header nav ul li{
 }
 
 /*Main*/
-body.portada main{
+body.portada{
     display: flex;
     flex-direction: column;
     gap: var(--big-gap);
-    margin-top: var(--big-gap);
+    max-width: var(--layout-max-width);
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
 }
 body.portada main section{
     padding-inline: var(--spacing-ingline);
@@ -330,7 +344,6 @@ body.portada main section#splash-section{
     column-gap: var(--big-gap);
     row-gap: var(--base-gap);
 }
-
 
 body.portada main section#splash-section #avatarSVG{
     aspect-ratio: 1;
@@ -360,6 +373,7 @@ body.portada main section#projects{
     padding-top: var(--big-gap);
     padding-bottom: var(--big-gap);
 }
+
 @media (prefers-color-scheme: dark) {
     body.portada main section#projects{
         background-color: color-mix(in srgb, var(--text-color) 3%, var(--page-bg));        
@@ -561,6 +575,39 @@ footer ul li{
         text-align: start;
     }
 }
+/*Generic*/
+body:not(.portada) main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: var(--spacing-ingline);
+
+}
+
+body:not(.portada) h1{
+    width: 100%;
+}
+#breadcrumbs{
+    width: 100%;
+}
+#breadcrumbs ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#breadcrumbs ul li{
+    padding-inline: 0.5rem;
+}
+#breadcrumbs ul li+li{
+    border-left: 2px solid color-mix(in srgb, var(--text-color) 40%, var(--page-bg));
+}
+
+#breadcrumbs ul li:last-child label{
+    font-weight: 700;
+}
+
 
 #scroll-up{
     display: flex;
