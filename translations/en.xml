@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <string id="page_title">Joan Prenafeta | Cool portfolio</string>
+
+    <string id="skip_to_main_content">Skip to main content</string>
+    <string id="header_site_logo_title">Go to the main page</string>
+    <string id="nav_projects">Projects</string>
+    <string id="nav_projects_title">Go to the projects section</string>
+    <string id="nav_skills">Skills</string>
+    <string id="nav_skills_title">Go to the skills section</string>
+    <string id="nav_about_me">About me</string>
+    <string id="nav_about_me_title">Go to the about me section</string>
+    <string id="nav_awesome_tools_title">Go to the Awesome-tools tool. Opens in a new tab</string>
+    
+    <string id="lang_ca_title">Català</string>
+    <string id="lang_es_title">Castellano</string>
+    <string id="lang_en_title">English</string>
+
+    <string id="main_h1_sr_only">Joan Prenafeta's portfolio.</string>
+    <string id="splash_greeting">Hello, I'm Joan Prenafeta, a</string>
+    <string id="splash_role_uxui">UX&amp;UI designer</string>
+    <string id="splash_intro_part_2">who loves creating the best experiences for all kinds of users. Oh! By the way, I'm also a</string>
+    <string id="splash_role_frontend">Front-end programmer</string>
+    <string id="splash_avatar_aria">Joan Prenafeta in a pixel-art style</string>
+    
+    <string id="projects_title">Projects</string>
+    <string id="projects_description">I cannot disclose the projects I've worked on. But here are my main tasks.</string>
+    
+    <string id="project_accessibility_name">Accessibility check</string>
+    <string id="project_accessibility_description">I have performed several checks to ensure that websites comply with WCAG guidelines</string>
+
+    <string id="project_uxui_name">UX&amp;UI design and layout</string>
+    <string id="project_uxui_description">I have designed some of the most important public institution websites, reaching up to 100,000 monthly visitors.</string>
+    
+    <string id="project_programming_name">Programming</string>
+    <string id="project_programming_description">I have worked as both a front-end and back-end programmer on different software systems for managing hospitals and veterinary clinics.</string>
+    
+    <string id="skills_title">What can I do?</string>
+    <string id="skills_description">Some of my skills include:</string>
+    <string id="skill_uxui">UX/UI Design</string>
+    <string id="skill_frontend">Front-end</string>
+    <string id="skill_accessibility">Accessibility</string>
+    <string id="skill_scrum">SCRUM</string>
+    <string id="skill_teamwork">Teamwork</string>
+
+    <string id="about_me_img_alt">Portrait of Joan Prenafeta</string>
+    <string id="about_me_title">Who am I?</string>
+    <string id="about_me_p1_part1">I am a</string>
+    <string id="about_me_p1_role">UX/UI designer</string>
+    <string id="about_me_p1_part2">with front-end development experience. I previously worked as a Full Stack developer, although I was always more drawn to the</string>
+    <string id="about_me_p1_frontend_bold">front-end</string>
+    <string id="about_me_p1_part3">, especially UX/UI design. That's why I decided to specialize, and now I have several years of experience creating intuitive and attractive user experiences.</string>
+    <string id="about_me_p2">My technical background and development experience allow me to deeply understand how designs translate into functional code and vice versa.</string>
+    <string id="about_me_p3">Did you like what you've read so far? Great! Because I can offer much more. Don't hesitate to get in touch!</string>
+    <string id="about_me_btn_know_more">Know more about me</string>
+    <string id="about_me_btn_know_more_title">Go to the page about Joan. Opens in the same tab.</string>
+    <string id="about_me_btn_message">Send me a message</string>
+    <string id="about_me_btn_message_title">Send a message via LinkedIn</string>
+
+    <string id="footer_last_update">Last updated: December 2025</string>
+    <string id="footer_social_heading">My social networks</string>
+</translations>

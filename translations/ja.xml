@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <string id="page_title">ジョアン・プレナフェタ | クールなポートフォリオ</string>
+
+    <string id="skip_to_main_content">メインコンテンツへスキップ</string>
+    <string id="header_site_logo_title">メインページへ移動</string>
+    <string id="nav_projects">プロジェクト</string>
+    <string id="nav_projects_title">プロジェクトセクションへ移動</string>
+    <string id="nav_skills">スキル</string>
+    <string id="nav_skills_title">スキルセクションへ移動</string>
+    <string id="nav_about_me">自己紹介</string>
+    <string id="nav_about_me_title">自己紹介セクションへ移動</string>
+    <string id="nav_awesome_tools_title">Awesome-tools (すごいツール) へ移動します。新しいタブで開きます</string>
+    
+    <string id="lang_ca_title">カタルーニャ語</string>
+    <string id="lang_es_title">スペイン語</string>
+    <string id="lang_en_title">英語</string>
+
+    <string id="main_h1_sr_only">ジョアン・プレナフェタのポートフォリオ。</string>
+    <string id="splash_greeting">こんにちは、ジョアン・プレナフェタです。私は</string>
+    <string id="splash_role_uxui">UX&amp;UIデザイナー</string>
+    <string id="splash_intro_part_2">として、あらゆる種類のユーザーに最高の体験を提供することを楽しんでいます。あ、そうそう、</string>
+    <string id="splash_role_frontend">フロントエンドプログラマー</string>
+    <string id="splash_avatar_aria">ピクセルアートスタイルのジョアン・プレナフェタ</string>
+    
+    <string id="projects_title">プロジェクト</string>
+    <string id="projects_description">取り組んだプロジェクトを全て公開することはできませんが、ここには私の主なタスクを記載します。</string>
+    
+    <string id="project_accessibility_name">アクセシビリティ管理</string>
+    <string id="project_accessibility_description">ウェブサイトがWCAGガイドラインに準拠していることを保証するために、いくつかのチェックを実施しました</string>
+
+    <string id="project_uxui_name">UX&amp;UIデザインとレイアウト</string>
+    <string id="project_uxui_description">月間10万人の訪問者に達する可能性のある、いくつかの重要な公共機関のウェブサイトを設計しました。</string>
+    
+    <string id="project_programming_name">プログラミング</string>
+    <string id="project_programming_description">病院や獣医クリニックを管理するためのさまざまなソフトウェアで、フロントエンドおよびバックエンドプログラマーとして働きました。</string>
+    
+    <string id="skills_title">私に何ができますか？</string>
+    <string id="skills_description">私のスキルの一部は以下の通りです:</string>
+    <string id="skill_uxui">UX/UI デザイン</string>
+    <string id="skill_frontend">フロントエンド</string>
+    <string id="skill_accessibility">アクセシビリティ</string>
+    <string id="skill_scrum">スクラム</string>
+    <string id="skill_teamwork">チームワーク</string>
+
+    <string id="about_me_img_alt">ジョアン・プレナフェタのポートレート</string>
+    <string id="about_me_title">私は誰ですか？</string>
+    <string id="about_me_p1_part1">私は</string>
+    <string id="about_me_p1_role">UX/UIデザイナー</string>
+    <string id="about_me_p1_part2">で、フロントエンド開発の経験があります。以前はフルスタック開発者として働いていましたが、常に</string>
+    <string id="about_me_p1_frontend_bold">フロントエンド</string>
+    <string id="about_me_p1_part3">、特にUX/UIデザインにより魅力を感じていました。そのため、専門化することを決意し、現在では直感的で魅力的なユーザー体験を創造する経験を数年間積んでいます。</string>
+    <string id="about_me_p2">私の技術的な背景と開発経験は、デザインがどのように機能的なコードに変換されるか、またその逆かを深く理解することを可能にします。</string>
+    <string id="about_me_p3">ここまで読んで気に入っていただけましたか？素晴らしいです！もっと多くのことを提供できます。お気軽にご連絡ください！</string>
+    <string id="about_me_btn_know_more">もっと私を知る</string>
+    <string id="about_me_btn_know_more_title">ジョアンについてのページへ移動します。同じタブで開きます。</string>
+    <string id="about_me_btn_message">メッセージを送る</string>
+    <string id="about_me_btn_message_title">LinkedInからメッセージを送る</string>
+
+    <string id="footer_last_update">最終更新: 2025年12月</string>
+    <string id="footer_social_heading">私のソーシャルネットワーク</string>
+</translations>
