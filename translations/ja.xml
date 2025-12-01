@@ -59,4 +59,8 @@
 
     <string id="footer_last_update">最終更新: 2025年12月</string>
     <string id="footer_social_heading">私のソーシャルネットワーク</string>
+    
+    <string id="toggle_theme_sr_only">ライトモードとダークモードを切り替える</string>
+    <string id="go_top">ページの先頭に戻る</string>
+
 </translations>

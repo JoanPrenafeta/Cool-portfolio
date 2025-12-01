@@ -59,4 +59,13 @@
 
     <string id="footer_last_update">Última actualització: Desembre de 2025</string>
     <string id="footer_social_heading">Les meves xarxes socials</string>
+
+    <string id="toggle_theme_sr_only">Canvia entre mode clar i fosc</string>
+    <string id="go_top">Torna a la part superior de la pàgina</string>
+
+    <string id="page_title_aboutMe">Sobre mi | Joan Prenafeta | Cool portfolio</string>
+    <string id="inici">Inici</string>
+    <string id="about_me">Sobre mi</string>
+
+    <string id=""></string>
 </translations>

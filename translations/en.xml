@@ -59,4 +59,8 @@
 
     <string id="footer_last_update">Last updated: December 2025</string>
     <string id="footer_social_heading">My social networks</string>
+
+    <string id="toggle_theme_sr_only">Toggle between light and dark mode</string>
+    <string id="go_top">Return to top on this page</string>
+
 </translations>

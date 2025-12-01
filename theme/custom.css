@@ -61,9 +61,11 @@
 }
 p{
     margin: 0;
+    paragraf-spacing: 2rem
 }
 strong{
     color: var(--primary-accessible);
+    font-weight: 800;
 }
 
 
@@ -96,28 +98,56 @@ ul.unstyled-list{
 }
 
 
-@media (prefers-color-scheme: dark) {
-    :root {
-      /* Variables per al mode fosc */
+body.dark{
+        /* Variables per al mode fosc */
         --page-bg: #121212;
         --text-color: #ffffff!important;
         --header-bg: black;
         --primary-accessible: var(--primary-light-min);
         --secondary-accessible: var(--secondary-light-min);
         --link-color-hover: var(--primary-light);
-
-    }
-    .image-theme .dark{
-        display: block;
-    }
-    .image-theme .light{
-        display: none;
-    }
-
-    ::selection {
-        background-color: color-mix(in srgb, var(--secondary-dark), transparent 50%);
-    }
 }
+body.dark .image-theme .dark{
+    display: block;
+}
+body.dark .image-theme .light{
+    display: none;
+}
+
+body.dark ::selection {
+    background-color: color-mix(in srgb, var(--secondary-dark), transparent 50%);
+}
+
+#toggleDark{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: var(--link-color);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#toggleDark .fa-moon{
+    display: none;
+}
+
+body.dark #toggleDark .fa-moon{
+    display: unset;
+}
+body.dark #toggleDark .fa-sun{
+    display: unset;
+}
+
+#toggleDark:hover,
+#toggleDark:active{
+    border-color: var(--link-color-hover);
+    color: var(--link-color-hover);
+}
+
 
 @media (min-width: 768px) {
     :root{
@@ -176,6 +206,8 @@ html {
 .language-selector ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 button, input,select{
@@ -204,24 +236,55 @@ a{
     transition: var(--base-transition);
 }
 
+a span{
+    color: var(--link-color);
+}
+
+
 a:hover{
     text-decoration: underline;
     color: var(--link-color-hover);
 }
 
-a.btn{
+.btn{
     color: var(--text-color);
     background-color: transparent;
     border: 1px solid var(--text-color);
     padding: 8px 16px;
     border-radius: var(--radius-sm);
 }
-a.btn:hover,
-a.btn:focus{
+.btn:hover,
+.btn:focus{
     background-color: var(--text-color);
     color: var(--page-bg);
 }
 
+.btn *{
+    color: var(--text-color);
+}
+.btn:hover *,
+.btn:focus *{
+    color: var(--page-bg);
+}
+
+.btn-primary{
+    background-color: var(--primary-brand);
+    border-color: var(--primary-brand);
+    color: var(--primary-contrast);
+}
+.btn-primary *{
+    color: var(--primary-contrast);
+}
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: var(--link-color-hover);
+    color: var(--page-bg);
+}
+
+.btn-primary:hover *,
+.btn-primary:focus *{
+    color: var(--page-bg);
+}
 
 .sr-only{
     position: absolute;
@@ -292,6 +355,9 @@ header{
     align-items: center;
     justify-content: center;
     position: sticky;
+    top: 0;
+    z-index: 1;
+    background: var(--page-bg);
 }
 header a#site-logo{
     color: var(--primary-accessible);
@@ -311,7 +377,9 @@ header nav ul{
 header nav ul li{
     text-align: center;
 }
-
+header nav ul li a[aria-selected="true"]{
+    font-weight: 700;
+}
 @media (min-width: 992px) {
     header{
         flex-direction: row;
@@ -332,6 +400,11 @@ body.portada{
     align-items: stretch;
     position: relative;
 }
+
+body:not(.portada) main{
+    gap: calc(var(--big-gap) / 2);
+}
+
 body.portada main section{
     padding-inline: var(--spacing-ingline);
     margin-bottom: var(--big-gap);
@@ -374,11 +447,10 @@ body.portada main section#projects{
     padding-bottom: var(--big-gap);
 }
 
-@media (prefers-color-scheme: dark) {
-    body.portada main section#projects{
+body.dark.portada main section#projects{
         background-color: color-mix(in srgb, var(--text-color) 3%, var(--page-bg));        
     }
-}
+
 body.portada main section#projects >div{
     margin-bottom: 24px;
 }
@@ -493,11 +565,23 @@ body.portada main section#aboutMe{
     margin-bottom: 0;
 }
 
-body.portada main section#aboutMe strong{
+body:not(.portada) main section#aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--big-gap);
+    row-gap: var(--base-gap);
+    background-color: color-mix(in srgb, var(--primary-accessible) 20%, var(--page-bg));
+    padding: 1rem;
+    border-radius: calc(var(--radius-xl) + 1rem);
+}
+
+body main section#aboutMe strong{
     color: var(--primary-dark);
 }
 
-body.portada main section#aboutMe img{
+body main section#aboutMe img{
     aspect-ratio: 1;
     border-radius: var(--radius-xl);
     width: 100%;
@@ -506,40 +590,47 @@ body.portada main section#aboutMe img{
 
 }
 
-body.portada main section#aboutMe .info{
+body main section#aboutMe .info{
     display: flex;
     flex-direction: column;
 }
 
-body.portada main section#aboutMe .info a.btn{
+body main section#aboutMe .info a.btn{
     width: fit-content;
     height: fit-content;
     margin-top: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-    body.portada main section#aboutMe{
-        background-color: color-mix(in srgb, var(--page-bg) 98%, var(--text-color));
-    }
-    body.portada main section#aboutMe img{
-        background-color: color-mix(in srgb, var(--page-bg) 80%, var(--text-color));
-    }
-    body.portada main section#aboutMe strong{
-        color: var(--primary-accessible);
-    }
+
+body.dark main section#aboutMe{
+    background-color: color-mix(in srgb, var(--page-bg) 98%, var(--text-color));
 }
+body.dark main section#aboutMe img{
+    background-color: color-mix(in srgb, var(--page-bg) 80%, var(--text-color));
+}
+body.dark main section#aboutMe strong{
+    color: var(--primary-accessible);
+}
+
 
 @media (min-width: 992px) {
     body.portada main section#aboutMe{
         flex-direction: row;
     }
-    body.portada main section#aboutMe img{
+    body:not(.portada) main section#aboutMe{
+        flex-direction: row;
+    }
+    body main section#aboutMe img{
         max-width: 40%;
+    }
+    body.aboutMe section#aboutMe img{
+        aspect-ratio: 1;
+        max-width: 250px;
     }
 }
 
 @media (min-width: 1200px) {
-    body.portada main section#aboutMe img{
+    body main section#aboutMe img{
         max-width: 40%;
     }
 }
@@ -566,6 +657,8 @@ footer ul{
 footer ul li{
 
 }
+
+
 @media (min-width: 992px) {
     footer{
         flex-direction: row;
@@ -576,6 +669,14 @@ footer ul li{
     }
 }
 /*Generic*/
+.inline-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
+    gap: var(--base-gap);
+}
 body:not(.portada) main{
     display: flex;
     flex-direction: column;

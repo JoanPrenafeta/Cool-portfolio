@@ -4,28 +4,23 @@ var link = window.location.href;
 let translationsMap = new Map();
 
 function loadTranslations(langCode) {
-    debugger
-    const filePath = "translations/"+langCode+".xml";
+    const filePath = "https://joanprenafeta.github.io/Cool-portfolio/translations/"+langCode+".xml";
     const xhr = new XMLHttpRequest();
     xhr.open('GET', filePath, true); 
     xhr.onload = function () {
         if (xhr.status === 200 || (xhr.status === 0 && filePath.startsWith('file:'))) {
             const xmlDoc = xhr.responseXML;
             if (xmlDoc) {
-                debugger
                 processXML(xmlDoc);
             } else {
-                debugger
-                console.error("Error: XMLHttpRequest va carregar el fitxer, però no el va poder parsejar com a XML.");
+                console.error("Error: XMLHttpRequest. Error while parsing.");
             }
         } else {
-            debugger
             console.error("Error reading file: '"+filePath+"'.");
         }
     };
     
     xhr.onerror = function () {
-        debugger
         console.error("Error de xarxa en carregar el fitxer XML.");
     };
 
@@ -94,15 +89,14 @@ function changeLanguage(newLangCode) {
 }
 
 function updateLanguageSelector(currentLang) {
-    document.querySelectorAll('.language-selector a').forEach(a => {
-        const langCodeMatch = a.getAttribute('href').match(/\.\.\/(\w{2})\/$/);
-        const linkLang = langCodeMatch ? langCodeMatch[1] : null;
-        if (linkLang === currentLang) {
-            a.setAttribute('aria-selected', 'true');
+    $(".language-selector a").each(function(){
+        if (this.attributes['lang'].value == currentLang) {
+            this.setAttribute('aria-selected', 'true');
         } else {
-            a.removeAttribute('aria-selected');
+            this.removeAttribute('aria-selected');
         }
-    });
+    })
+    $("html").attr("lang", currentLang)
 }
 
 document.addEventListener('DOMContentLoaded', () => {

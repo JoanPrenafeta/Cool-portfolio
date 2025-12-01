@@ -59,4 +59,8 @@
 
     <string id="footer_last_update">Última actualización: Diciembre de 2025</string>
     <string id="footer_social_heading">Mis redes sociales</string>
+
+    <string id="toggle_theme_sr_only">Cambia entre modo claro y oscuro</string>
+    <string id="go_top">Vuelve a la parte superior de la página</string>
+
 </translations>

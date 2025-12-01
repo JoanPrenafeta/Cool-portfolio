@@ -22,21 +22,29 @@
           <a href="#main" class="sr-only" id="main-redirection" target="_self" data-i18n-key="skip_to_main_content">Anar al contingut principal</a>
           <a href="https://joanprenafeta.github.io/Cool-portfolio/" target="_top" id="site-logo" class="h3" data-i18n-key="header_site_logo_title" data-i18n-attr="title" title="Anar a la pàgina principal">TOAN</a>
         </div>
+
+        <nav aria-label="Selector d'idioma"  class="language-selector">
+          <ul class="unstyled-list">
+            <li><a href="?lang=ca" title="Català" target="_self" lang="ca">CA</a></li>
+            <li><a href="?lang=es" title="Castellano" target="_self" lang="es">ES</a></li>
+            <li><a href="?lang=en" title="English" target="_self" lang="en">EN</a></li>
+            <li><a href="?lang=ja" title="日本語" target="_self" lang="ja">日本語</a></li>
+            <li><button id="toggleDark">
+              <span class="sr-only" data-i18n-key="toggle_theme_sr_only">Canvia entre mode clar i fosc</span>
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+          </ul>
+        </nav>
         
         <nav aria-label="Main menu">
             <ul class="unstyled-list">
                 <li><a href="#projects" data-i18n-key="nav_projects_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_projects">Projectes</span></a></li>
                 <li><a href="#skills" data-i18n-key="nav_skills_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_skills">Habilitats</span></a></li>
-                <li><a href="#aboutMe" data-i18n-key="nav_about_me_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_about_me">Sobre mi</span></a></li>
+                <li><a href="pages/aboutMe.html" data-i18n-key="nav_about_me_title" data-i18n-attr="title" target="_self"><span data-i18n-key="nav_about_me">Sobre mi</span></a></li>
                 <li><a target="_blank" href="https://joanprenafeta.github.io/Awesome-Tools/" data-i18n-key="nav_awesome_tools_title" data-i18n-attr="title">Awesome Tools</a></li>
             </ul>
-        </nav>
-        <nav aria-label="Selector d'idioma"  class="language-selector">
-          <ul class="unstyled-list">
-            <li><a href="" title="Català" target="_self" lang="ca">CA</a></li>
-            <li><a href="" title="Castellano" target="_self" lang="es">ES</a></li>
-            <li><a href="" title="English" target="_self" lang="en">EN</a></li>
-          </ul>
         </nav>
     </header>
     
@@ -287,12 +295,14 @@
                 </p>
                 <p class="description" data-i18n-key="about_me_p2">La meva formació tècnica i experiència en desenvolupament em permeten entendre profundament com es tradueixen els dissenys en codi funcional i viceversa.</p>
                 <p class="description" data-i18n-key="about_me_p3">T'ha agradat el que has llegit fins ara? Genial! Perquè puc oferir molt més. No dubtis a posar-te en contacte!</p>
-                <a class="btn" href="aboutMe.html" target="_self" data-i18n-key="about_me_btn_know_more_title" data-i18n-attr="title">
-                    <span data-i18n-key="about_me_btn_know_more">Coneix-me més</span>
-                </a>
-                <a class="btn" href="https://www.linkedin.com/messaging/compose/?recipient=joan-prenafeta-sur%C3%ADs-162254108" target="_blank" data-i18n-key="about_me_btn_message_title" data-i18n-attr="title">
+                <div class="inline-buttons">
+                  <a class="btn btn-primary" href="https://www.linkedin.com/messaging/compose/?recipient=joan-prenafeta-sur%C3%ADs-162254108" target="_blank" data-i18n-key="about_me_btn_message_title" data-i18n-attr="title">
                     <span data-i18n-key="about_me_btn_message">Envia'm un missatge</span>
-                </a>
+                  </a>
+                  <a class="btn" href="pages/aboutMe.html" target="_self" data-i18n-key="about_me_btn_know_more_title" data-i18n-attr="title">
+                    <span data-i18n-key="about_me_btn_know_more">Coneix-me més</span>
+                  </a>
+                </div>
             </div>
         </section>
     </main>
@@ -324,7 +334,7 @@
 
     <a href="#body" target="_self" class="h3" id="scroll-up">
       <i class="fa-solid fa-chevron-up"></i>
-      <span class="sr-only">Back to the top of the page</span>
+      <span class="sr-only" data-i18n-key="go_top">Back to the top of the page</span>
     </a>
 </body>
 </html>
