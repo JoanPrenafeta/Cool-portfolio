@@ -61,7 +61,7 @@
 }
 p{
     margin: 0;
-    paragraf-spacing: 2rem
+
 }
 strong{
     color: var(--primary-accessible);
@@ -122,24 +122,25 @@ body.dark ::selection {
     width: 44px;
     height: 44px;
     display: flex;
-    flex-direction: center;
+    align-items: center;
     justify-content: center;
     background-color: transparent;
     border: 2px solid transparent;
     color: var(--link-color);
     border-radius: 100px;
     cursor: pointer;
+    font-size: var(--font-size-h6);
 }
 
-#toggleDark .fa-moon{
+#toggleDark .fa-sun{
     display: none;
 }
 
-body.dark #toggleDark .fa-moon{
-    display: unset;
-}
 body.dark #toggleDark .fa-sun{
     display: unset;
+}
+body.dark #toggleDark .fa-moon{
+    display: none;
 }
 
 #toggleDark:hover,
