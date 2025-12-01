@@ -241,9 +241,16 @@ a span{
     color: var(--link-color);
 }
 
+header a,
+header a span{
+    color: var(--primary-accessible);
+}
 
 a:hover{
     text-decoration: underline;
+    color: var(--link-color-hover);
+}
+a:hover span{
     color: var(--link-color-hover);
 }
 
