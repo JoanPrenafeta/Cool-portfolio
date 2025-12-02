@@ -766,6 +766,7 @@ body:not(.portada) h1{
 
 .two-cols{
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: stretch;
     align-items: center;
@@ -781,6 +782,7 @@ body.aboutMe section#faqs .col{
 @media (min-width: 768px) {
     .two-cols{
         flex-direction: row;
+        align-items: start;
     }
     body.aboutMe section#faqs svg{
             position: sticky;
