@@ -63,4 +63,50 @@
     <string id="toggle_theme_sr_only">ライトモードとダークモードを切り替える</string>
     <string id="go_top">ページの先頭に戻る</string>
 
+    <string id="about_me">私をもっと知る</string>
+    <string id="whyToan_title">なぜ &lt;strong&gt;TOAN&lt;/strong&gt; ですか?</string>
+    <string id="whyToan_p1">私の専門ブランドの名前はToanです。この選択は恣意的なものではなく、私のブランド哲学である「信頼とプロセス全体を通じた同行」を直接強化する個人的かつ感情的な絆に基づいています。Toanはランダムな発明ではなく、深くて個人的な感情的な負荷を持つ言葉です。その起源は私の子供時代に遡り、「J」の発音が難しく、「Joan」の代わりに自分を「Toan」と呼んでいました。この小さな癖は、私の最も親しい愛する人たちに使われる愛情のこもったニックネームとなり、無条件のサポートと受容の象徴となりました。</string>
+    <string id="whyToan_p2">数年後、この名前は私のパートナーが、私が子供の頃の物語を知らずに愛情を込めて「Toan」を使い始めたときに、新たな次元を獲得しました。この偶然は私にとってその意味を確認しました。その名前は今、絶え間ないサポート、信頼、そして忠実さの道筋を象徴しています。</string>
+    <string id="whyToan_p3_intro">専門的な文脈では、Toanは私のブランドの声となり、私の価値提案の柱となります。</string>
+    <string id="whyToan_list_acompaniment_title">同行の約束:</string>
+    <string id="whyToan_list_acompaniment_text">誰かがデジタル化のプロセスでデジタルアクセシビリティを遵守する必要があるとき、Toanは、クライアントが法的および技術的な複雑さに単独で立ち向かう必要はなく、近接性と相互サポートの関係によって導かれることを約束します。</string>
+    <string id="whyToan_list_force_title">強さと差別化:</string>
+    <string id="whyToan_list_force_text">この綴りの特異性と力強い響きは、ブランドが視覚的に目立ち、一般的すぎたり形式的すぎたりする名前で飽和しがちな環境で簡単に記憶されるのに役立ちます。</string>
+    <string id="whyToan_p4">したがって、Toanは単なる名前ではなく、信頼の宣言であり、収益性の高いアクセシビリティが、最も重要な人間関係に見られるのと同じ配慮とサポートをもって提供されるというコミットメントです。</string>
+
+    <string id="diference_title">私を際立たせるものは何ですか?</string>
+    <string id="diference_p1_intro">私の差別化要因は、私のハイブリッドなプロファイル（UX/UI、フロントエンド開発者、デジタルアクセシビリティに特化したプロファイル）と、製品に対する360度のビジョンです。クライアントが私を雇うとき、彼らは単なるグラフィック成果物（プロトタイプ）を購入するのではなく、効率的なエンドツーエンドプロセス（ソリューション）の保証を購入します。私が提供する付加価値は二重です。</string>
+    <string id="diference_list_garantia_title">摩擦のないコンプライアンス保証:</string>
+    <string id="diference_list_garantia_text">私のデザインには、フロントエンドのロジックが組み込まれています。アクセシビリティ基準、セマンティックな命名、wai-ariaタグの遵守、およびデザインフェーズからのQAチェックも同様です。</string>
+    <string id="diference_list_costos_title">技術的コスト削減:</string>
+    <string id="diference_list_costos_text">この統合により、デザインチームと開発チーム間の反復とエラーが劇的に減少し、公共プロジェクトの総予算における定量化可能な節約につながります。アクセシビリティは費用ではなく、効率の源になります。</string>
+
+    <string id="jobs_title">私の経歴は何ですか?</string>
+    <string id="job_indra_h3">シニアUXデザイナー</string>
+    <string id="job_indra_p"><strong>航空宇宙</strong>分野におけるソフトウェア設計。</string>
+    <string id="job_ecityclic_h3">UXデザイナーとフロントエンド開発者</string>
+    <string id="job_ecityclic_p">カタルーニャ、スペイン、アンドラの主要な&lt;strong&gt;行政機関&lt;/strong&gt;向けのウェブおよびアプリプラットフォームの設計</string>
+    <string id="job_qsoft_h3">フルスタック開発者</string>
+    <string id="job_qsoft_p">&lt;strong&gt;病院管理&lt;/strong&gt;ソフトウェアにおけるフルスタックプログラマー</string>
+
+    <string id="academy_title">どのような学歴がありますか?</string>
+    <string id="acad_uoc_h3">デジタルデザインおよび創造学士号</string>
+    <string id="acad_uoc_p">カタルーニャ公開大学</string>
+    <string id="acad_ucam_prog_h3">高度プログラミング大学ディプロマ</string>
+    <string id="acad_ucam_prog_p">ムルシア州サンアントニオカトリック大学</string>
+    <string id="acad_ucam_anal_h3">ソフトウェア分析および設計大学ディプロマ</string>
+    <string id="acad_ucam_anal_p">ムルシア州サンアントニオカトリック大学</string>
+    <string id="acad_ilerna_daw_h3">ウェブアプリケーション開発高等職業訓練</string>
+    <string id="acad_ilerna_daw_p">イレルナ職業訓練</string>
+    <string id="acad_ilerna_dam_h3">マルチプラットフォームアプリケーション開発高等職業訓練</string>
+    <string id="acad_ilerna_dam_p">イレルナ職業訓練</string>
+    <string id="acad_ilerna_3d_h3">3Dアニメーション、ゲーム、インタラクティブ環境高等職業訓練</string>
+    <string id="acad_ilerna_3d_p">イレルナ職業訓練</string>
+
+    <string id="lang_title">どの言語を話せますか?</string>
+    <string id="lang_ca_p">私の母国語です。&lt;strong&gt;C1&lt;/strong&gt;に相当します。</string>
+    <string id="lang_es_p">私の母国語です。&lt;strong&gt;C1&lt;/strong&gt;に相当します。</string>
+    <string id="lang_en_p">大学の学位で、&lt;strong&gt;B2&lt;/strong&gt;に相当するものを習得しました。</string>
+    <string id="lang_ja_p">初級レベルで、&lt;strong&gt;N5&lt;/strong&gt;の準備をしています。</string>
+
 </translations>

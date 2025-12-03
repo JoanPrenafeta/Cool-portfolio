@@ -63,4 +63,52 @@
     <string id="toggle_theme_sr_only">Toggle between light and dark mode</string>
     <string id="go_top">Return to top on this page</string>
 
+    <string id="about_me_p1_full">I am a &lt;strong&gt;UX/UI designer&lt;/strong&gt; with front-end development experience. I previously worked as a Full Stack developer, although I was always more drawn to the &lt;strong&gt;front-end&lt;/strong&gt;, especially UX/UI design. That's why I decided to specialize, and now I have several years of experience creating intuitive and attractive user experiences.</string>
+    <string id="about_me">Abount me</string>
+
+    <string id="whyToan_title">Why &lt;strong&gt;TOAN&lt;/strong&gt;?</string>
+    <string id="whyToan_p1">The naming of my professional brand is Toan. This choice is not arbitrary, but is based on a personal and emotional bond that directly reinforces my brand's philosophy: trust and accompaniment throughout the process. Toan is not a random invention, but a word with a deep and personal emotional charge. Its origin dates back to my childhood, when I had difficulty pronouncing the letter 'J' and referred to myself as "Toan" instead of "Joan". This small peculiarity became an affectionate nickname used by my closest loved ones, a symbol of unconditional support and acceptance.</string>
+    <string id="whyToan_p2">Years later, this name acquired a new dimension when my partner started using "Toan" affectionately, without knowing the story from when I was a child. This coincidence confirmed its meaning for me: the name now symbolizes a path of constant support, trust, and fidelity.</string>
+    <string id="whyToan_p3_intro">In the professional context, Toan becomes the voice of my brand and the pillar of my value proposition:</string>
+    <string id="whyToan_list_acompaniment_title">Promise of accompaniment:</string>
+    <string id="whyToan_list_acompaniment_text">When Someone needs to comply with digital accessibility in the digitalization process, Toan promises that the client will not have to face the legal and technical complexity alone, but will be guided by a close relationship and mutual support.</string>
+    <string id="whyToan_list_force_title">Strength and distinction:</string>
+    <string id="whyToan_list_force_text">This orthographic singularity and its strong sonority help the brand stand out visually and be easily remembered in an environment often saturated with generic or overly formal names.</string>
+    <string id="whyToan_p4">Toan is, therefore, more than a name; it is a declaration of trust, a commitment that profitable Accessibility will be delivered with the same care and support found in the most significant personal relationships.</string>
+
+    <string id="diference_title">What sets me apart?</string>
+    <string id="diference_p1_intro">My difference is my hybrid profile (UX/UI, front-end developer, and specialized digital accessibility profile) and my 360° product vision. When a client hires me, they are not just buying a graphic deliverable (the prototype), but the guarantee of an efficient end-to-end process (the solution). The added value I deliver is twofold:</string>
+    <string id="diference_list_garantia_title">Frictionless compliance guarantee:</string>
+    <string id="diference_list_garantia_text">My designs inherently include Frontend logic, as well as compliance with accessibility criteria, semantic naming, wai-aria tags, and QA checking from the design phase.</string>
+    <string id="diference_list_costos_title">Technical cost reduction:</string>
+    <string id="diference_list_costos_text">This integration drastically reduces iterations and errors between design and development teams, which translates into quantifiable savings in the total public project budget. Accessibility becomes a source of efficiency, not an expense.</string>
+
+    <string id="jobs_title">What is my trajectory?</string>
+    <string id="job_indra_h3">Senior UX designer</string>
+    <string id="job_indra_p">Software design in the field of &lt;strong&gt;aerospace aeronautics.&lt;/strong&gt;</string>
+    <string id="job_ecityclic_h3">UX designer &amp; Frontend developer</string>
+    <string id="job_ecityclic_p">Design of web and app platforms for the main &lt;strong&gt;public administrations&lt;/strong&gt; of Catalonia, Spain, and Andorra</string>
+    <string id="job_qsoft_h3">Fullstack developer</string>
+    <string id="job_qsoft_p">Fullstack programmer in &lt;strong&gt;hospital management&lt;/strong&gt; software</string>
+
+    <string id="academy_title">What studies do I have?</string>
+    <string id="acad_uoc_h3">Bachelor's Degree in Design and Digital Creation</string>
+    <string id="acad_uoc_p">Open University of Catalonia</string>
+    <string id="acad_ucam_prog_h3">University Diploma in Advanced Programming</string>
+    <string id="acad_ucam_prog_p">Catholic University San Antonio of Murcia</string>
+    <string id="acad_ucam_anal_h3">University Diploma in Software Analysis and Design</string>
+    <string id="acad_ucam_anal_p">Catholic University San Antonio of Murcia</string>
+    <string id="acad_ilerna_daw_h3">Higher Vocational Training in Web Application Development</string>
+    <string id="acad_ilerna_daw_p">Ilerna Training</string>
+    <string id="acad_ilerna_dam_h3">Higher Vocational Training in Multiplatform Application Development</string>
+    <string id="acad_ilerna_dam_p">Ilerna Training</string>
+    <string id="acad_ilerna_3d_h3">Higher Vocational Training in 3D Animation, Games, and Interactive Environments</string>
+    <string id="acad_ilerna_3d_p">Ilerna Training</string>
+
+    <string id="lang_title">What languages do I speak?</string>
+    <string id="lang_ca_p">It is my native language. It would be the equivalent of &lt;strong&gt;C1&lt;/strong&gt;.</string>
+    <string id="lang_es_p">It is my native language. It would be the equivalent of &lt;strong&gt;C1&lt;/strong&gt;.</string>
+    <string id="lang_en_p">With the university degree, I have acquired the equivalent of &lt;strong&gt;B2&lt;/strong&gt;.</string>
+    <string id="lang_ja_p">Beginner level, I am preparing for the &lt;strong&gt;N5&lt;/strong&gt;.</string>
+
 </translations>

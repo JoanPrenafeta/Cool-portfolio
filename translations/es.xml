@@ -63,4 +63,51 @@
     <string id="toggle_theme_sr_only">Cambia entre modo claro y oscuro</string>
     <string id="go_top">Vuelve a la parte superior de la página</string>
 
+    <string id="about_me_p1_full">Soy un &lt;strong&gt;diseñador de UX/UI&lt;/strong&gt; con experiencia en desarrollo front-end. Anteriormente, trabajé como desarrollador Full Stack, aunque siempre me atrajo más el &lt;strong&gt;front-end&lt;/strong&gt;, especialmente el diseño de UX/UI. Por eso, decidí especializarme, y ahora llevo varios años creando experiencias de usuario intuitivas y atractivas.</string>
+    
+    <string id="whyToan_title">¿Por qué &lt;strong&gt;TOAN&lt;/strong&gt;?</string>
+    <string id="whyToan_p1">El naming de mi marca profesional es Toan. Esta elección no es arbitraria, sino que se basa en un vínculo personal y emocional que refuerza directamente la filosofía de mi marca: la confianza y el acompañamiento a lo largo del proceso. Toan no es una invención aleatoria, sino una palabra con una carga emocional profunda y personal. Su origen se remonta a mi infancia, cuando tenía dificultades para pronunciar la letra ‘J' y me refería a mí mismo como "Toan" en lugar de "Joan". Esta pequeña peculiaridad se convirtió en un apodo cariñoso utilizado por mis seres queridos más cercanos, un símbolo de apoyo y aceptación incondicional.</string>
+    <string id="whyToan_p2">Años más tarde, este nombre adquirió una nueva dimensión cuando mi pareja comenzó a usar "Toan" de manera cariñosa, sin conocer la historia de cuando era niño. Esta coincidencia confirmó su significado para mí: el nombre simboliza ahora un camino de apoyo constante, confianza y fidelidad.</string>
+    <string id="whyToan_p3_intro">En el contexto profesional, Toan se convierte en la voz de mi marca y el pilar de mi propuesta de valor:</string>
+    <string id="whyToan_list_acompaniment_title">Promesa de acompañamiento:</string>
+    <string id="whyToan_list_acompaniment_text">Cuando Alguien necesita cumplir con la accesibilidad digital en el proceso de digitalización, Toan promete que el cliente no tendrá que afrontar la complejidad legal y técnica en solitario, sino que será guiado por una relación de proximidad y apoyo mutuo.</string>
+    <string id="whyToan_list_force_title">Fuerza y distinción:</string>
+    <string id="whyToan_list_force_text">Esta singularidad ortográfica y su sonoridad fuerte ayudan a la marca a destacar visualmente y a ser fácilmente recordada en un entorno a menudo saturado de nombres genéricos o demasiado formales.</string>
+    <string id="whyToan_p4">Toan es, por lo tanto, más que un nombre; es una declaración de confianza, un compromiso de que la Accesibilidad rentable será entregada con el mismo cuidado y apoyo que se encuentra en las relaciones personales más significativas.</string>
+
+    <string id="diference_title">¿Qué me diferencia?</string>
+    <string id="diference_p1_intro">Mi diferencia es mi perfil híbrido (UX/UI, desarrollador front-end y perfil especializado en accesibilidad digital) y mi visión 360° del producto. Cuando un cliente me contrata, no compra solo un entregable gráfico (el prototipo), sino la garantía de un proceso end-to-end eficiente (la solución). El valor añadido que entrego es doble:</string>
+    <string id="diference_list_garantia_title">Garantía de cumplimiento sin fricción:</string>
+    <string id="diference_list_garantia_text">Mis diseños llevan implícita la lógica de Frontend. Así como el cumplimiento de los criterios de accesibilidad, la denominación semántica, etiquetas wai-aria y la comprobación de QA desde la fase de diseño.</string>
+    <string id="diference_list_costos_title">Reducción de costes técnicos:</string>
+    <string id="diference_list_costos_text">Esta integración reduce drásticamente las iteraciones y los errores entre los equipos de diseño y desarrollo, lo que se traduce en un ahorro cuantificable en el presupuesto total del proyecto público. La accesibilidad se convierte en una fuente de eficiencia y no en un gasto.</string>
+
+    <string id="jobs_title">¿Cuál es mi trayectoria?</string>
+    <string id="job_indra_h3">Senior UX designer</string>
+    <string id="job_indra_p">Diseño de software en el ámbito de &lt;strong&gt;aeronáutica espacial.&lt;/strong&gt;</string>
+    <string id="job_ecityclic_h3">UX designer &amp; Frontend developer</string>
+    <string id="job_ecityclic_p">Diseño de plataformas web y app para las principales &lt;strong&gt;administraciones públicas&lt;/strong&gt; de Cataluña, España y Andorra</string>
+    <string id="job_qsoft_h3">Fullstack developer</string>
+    <string id="job_qsoft_p">Programador fullstack en software de &lt;strong&gt;gestión hospitalaria&lt;/strong&gt;</string>
+
+    <string id="academy_title">¿Qué estudios tengo?</string>
+    <string id="acad_uoc_h3">Grado en Diseño y creación digitales</string>
+    <string id="acad_uoc_p">Universidad abierta de cataluña</string>
+    <string id="acad_ucam_prog_h3">Diploma universitario en Programación avanzada</string>
+    <string id="acad_ucam_prog_p">Universidad Católica san Antonio de Murcia</string>
+    <string id="acad_ucam_anal_h3">Diploma universitario en Análisis y diseño del software</string>
+    <string id="acad_ucam_anal_p">Universidad Católica san Antonio de Murcia</string>
+    <string id="acad_ilerna_daw_h3">CFGS en Desarrollo de aplicaciones web</string>
+    <string id="acad_ilerna_daw_p">Ilerna Formación</string>
+    <string id="acad_ilerna_dam_h3">CFGS en Desarrollo de aplicaciones multiplataforma</string>
+    <string id="acad_ilerna_dam_p">Ilerna Formación</string>
+    <string id="acad_ilerna_3d_h3">CFGS en Animación 3D, juegos y entornos interactivos</string>
+    <string id="acad_ilerna_3d_p">Ilerna Formación</string>
+
+    <string id="lang_title">¿Qué idiomas hablo?</string>
+    <string id="lang_ca_p">Es mi lengua materna. Sería el equivalente al &lt;strong&gt;C1&lt;/strong&gt;.</string>
+    <string id="lang_es_p">Es mi lengua materna. Sería el equivalente al &lt;strong&gt;C1&lt;/strong&gt;.</string>
+    <string id="lang_en_p">Con el grado universitario, he adquirido el equivalente al &lt;strong&gt;B2&lt;/strong&gt;.</string>
+    <string id="lang_ja_p">Nivel principiante, me estoy preparando para el &lt;strong&gt;N5&lt;/strong&gt;.</string>
+
 </translations>

@@ -858,8 +858,9 @@ body.aboutMe section#academy article i{
     justify-content: center;
     align-items: center;
     aspect-ratio: 1;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
     border-radius: 10rem;
 }
 
