@@ -63,9 +63,9 @@
     <string id="toggle_theme_sr_only">Cambia entre modo claro y oscuro</string>
     <string id="go_top">Vuelve a la parte superior de la página</string>
 
-    <string id="about_me_p1_full">Soy un &lt;strong&gt;diseñador de UX/UI&lt;/strong&gt; con experiencia en desarrollo front-end. Anteriormente, trabajé como desarrollador Full Stack, aunque siempre me atrajo más el &lt;strong&gt;front-end&lt;/strong&gt;, especialmente el diseño de UX/UI. Por eso, decidí especializarme, y ahora llevo varios años creando experiencias de usuario intuitivas y atractivas.</string>
+    <string id="about_me_p1_full">Soy un <strong>diseñador de UX/UI</strong> con experiencia en desarrollo front-end. Anteriormente, trabajé como desarrollador Full Stack, aunque siempre me atrajo más el <strong>front-end</strong>, especialmente el diseño de UX/UI. Por eso, decidí especializarme, y ahora llevo varios años creando experiencias de usuario intuitivas y atractivas.</string>
     
-    <string id="whyToan_title">¿Por qué &lt;strong&gt;TOAN&lt;/strong&gt;?</string>
+    <string id="whyToan_title">¿Por qué <strong>TOAN</strong>?</string>
     <string id="whyToan_p1">El naming de mi marca profesional es Toan. Esta elección no es arbitraria, sino que se basa en un vínculo personal y emocional que refuerza directamente la filosofía de mi marca: la confianza y el acompañamiento a lo largo del proceso. Toan no es una invención aleatoria, sino una palabra con una carga emocional profunda y personal. Su origen se remonta a mi infancia, cuando tenía dificultades para pronunciar la letra ‘J' y me refería a mí mismo como "Toan" en lugar de "Joan". Esta pequeña peculiaridad se convirtió en un apodo cariñoso utilizado por mis seres queridos más cercanos, un símbolo de apoyo y aceptación incondicional.</string>
     <string id="whyToan_p2">Años más tarde, este nombre adquirió una nueva dimensión cuando mi pareja comenzó a usar "Toan" de manera cariñosa, sin conocer la historia de cuando era niño. Esta coincidencia confirmó su significado para mí: el nombre simboliza ahora un camino de apoyo constante, confianza y fidelidad.</string>
     <string id="whyToan_p3_intro">En el contexto profesional, Toan se convierte en la voz de mi marca y el pilar de mi propuesta de valor:</string>
@@ -84,11 +84,11 @@
 
     <string id="jobs_title">¿Cuál es mi trayectoria?</string>
     <string id="job_indra_h3">Senior UX designer</string>
-    <string id="job_indra_p">Diseño de software en el ámbito de &lt;strong&gt;aeronáutica espacial.&lt;/strong&gt;</string>
+    <string id="job_indra_p">Diseño de software en el ámbito de <strong>aeronáutica espacial.</strong></string>
     <string id="job_ecityclic_h3">UX designer &amp; Frontend developer</string>
-    <string id="job_ecityclic_p">Diseño de plataformas web y app para las principales &lt;strong&gt;administraciones públicas&lt;/strong&gt; de Cataluña, España y Andorra</string>
+    <string id="job_ecityclic_p">Diseño de plataformas web y app para las principales <strong>administraciones públicas</strong> de Cataluña, España y Andorra</string>
     <string id="job_qsoft_h3">Fullstack developer</string>
-    <string id="job_qsoft_p">Programador fullstack en software de &lt;strong&gt;gestión hospitalaria&lt;/strong&gt;</string>
+    <string id="job_qsoft_p">Programador fullstack en software de <strong>gestión hospitalaria</strong></string>
 
     <string id="academy_title">¿Qué estudios tengo?</string>
     <string id="acad_uoc_h3">Grado en Diseño y creación digitales</string>
@@ -105,9 +105,9 @@
     <string id="acad_ilerna_3d_p">Ilerna Formación</string>
 
     <string id="lang_title">¿Qué idiomas hablo?</string>
-    <string id="lang_ca_p">Es mi lengua materna. Sería el equivalente al &lt;strong&gt;C1&lt;/strong&gt;.</string>
-    <string id="lang_es_p">Es mi lengua materna. Sería el equivalente al &lt;strong&gt;C1&lt;/strong&gt;.</string>
-    <string id="lang_en_p">Con el grado universitario, he adquirido el equivalente al &lt;strong&gt;B2&lt;/strong&gt;.</string>
-    <string id="lang_ja_p">Nivel principiante, me estoy preparando para el &lt;strong&gt;N5&lt;/strong&gt;.</string>
+    <string id="lang_ca_p">Es mi lengua materna. Sería el equivalente al <strong>C1</strong>.</string>
+    <string id="lang_es_p">Es mi lengua materna. Sería el equivalente al <strong>C1</strong>.</string>
+    <string id="lang_en_p">Con el grado universitario, he adquirido el equivalente al <strong>B2</strong>.</string>
+    <string id="lang_ja_p">Nivel principiante, me estoy preparando para el <strong>N5</strong>.</string>
 
 </translations>
