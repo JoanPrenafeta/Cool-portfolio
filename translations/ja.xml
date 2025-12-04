@@ -64,7 +64,7 @@
     <string id="go_top">ページの先頭に戻る</string>
 
     <string id="about_me">私をもっと知る</string>
-    <string id="whyToan_title">なぜ <strong>TOAN</strong> ですか?</string>
+    <string id="whyToan_title">なぜ &lt;strong&gt;TOAN&lt;/strong&gt; ですか?</string>
     <string id="whyToan_p1">私の専門ブランドの名前はToanです。この選択は恣意的なものではなく、私のブランド哲学である「信頼とプロセス全体を通じた同行」を直接強化する個人的かつ感情的な絆に基づいています。Toanはランダムな発明ではなく、深くて個人的な感情的な負荷を持つ言葉です。その起源は私の子供時代に遡り、「J」の発音が難しく、「Joan」の代わりに自分を「Toan」と呼んでいました。この小さな癖は、私の最も親しい愛する人たちに使われる愛情のこもったニックネームとなり、無条件のサポートと受容の象徴となりました。</string>
     <string id="whyToan_p2">数年後、この名前は私のパートナーが、私が子供の頃の物語を知らずに愛情を込めて「Toan」を使い始めたときに、新たな次元を獲得しました。この偶然は私にとってその意味を確認しました。その名前は今、絶え間ないサポート、信頼、そして忠実さの道筋を象徴しています。</string>
     <string id="whyToan_p3_intro">専門的な文脈では、Toanは私のブランドの声となり、私の価値提案の柱となります。</string>
@@ -83,11 +83,11 @@
 
     <string id="jobs_title">私の経歴は何ですか?</string>
     <string id="job_indra_h3">シニアUXデザイナー</string>
-    <string id="job_indra_p"><strong>航空宇宙</strong>分野におけるソフトウェア設計。</string>
+    <string id="job_indra_p">&lt;strong&gt;航空宇宙&lt;/strong&gt;分野におけるソフトウェア設計。</string>
     <string id="job_ecityclic_h3">UXデザイナーとフロントエンド開発者</string>
-    <string id="job_ecityclic_p">カタルーニャ、スペイン、アンドラの主要な<strong>行政機関</strong>向けのウェブおよびアプリプラットフォームの設計</string>
+    <string id="job_ecityclic_p">カタルーニャ、スペイン、アンドラの主要な&lt;strong&gt;行政機関&lt;/strong&gt;向けのウェブおよびアプリプラットフォームの設計</string>
     <string id="job_qsoft_h3">フルスタック開発者</string>
-    <string id="job_qsoft_p"><strong>病院管理</strong>ソフトウェアにおけるフルスタックプログラマー</string>
+    <string id="job_qsoft_p">&lt;strong&gt;病院管理&lt;/strong&gt;ソフトウェアにおけるフルスタックプログラマー</string>
 
     <string id="academy_title">どのような学歴がありますか?</string>
     <string id="acad_uoc_h3">デジタルデザインおよび創造学士号</string>
@@ -104,9 +104,13 @@
     <string id="acad_ilerna_3d_p">イレルナ職業訓練</string>
 
     <string id="lang_title">どの言語を話せますか?</string>
-    <string id="lang_ca_p">私の母国語です。<strong>C1</strong>に相当します。</string>
-    <string id="lang_es_p">私の母国語です。<strong>C1</strong>に相当します。</string>
-    <string id="lang_en_p">大学の学位で、<strong>B2</strong>に相当するものを習得しました。</string>
-    <string id="lang_ja_p">初級レベルで、<strong>N5</strong>の準備をしています。</string>
+    <string id="lang_ca">カタルーニャ語</string>
+    <string id="lang_es">スペイン語</string>
+    <string id="lang_en">英語</string>
+    <string id="lang_ja">日本語</string> 
+    <string id="lang_ca_p">私の母国語です。&lt;strong&gt;C1&lt;/strong&gt;に相当します。</string>
+    <string id="lang_es_p">私の母国語です。&lt;strong&gt;C1&lt;/strong&gt;に相当します。</string>
+    <string id="lang_en_p">大学の学位で、&lt;strong&gt;B2&lt;/strong&gt;に相当するものを習得しました。</string>
+    <string id="lang_ja_p">初級レベルで、&lt;strong&gt;N5&lt;/strong&gt;の準備をしています。</string>
 
 </translations>

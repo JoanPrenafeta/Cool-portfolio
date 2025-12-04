@@ -721,6 +721,10 @@ body:not(.portada) h1{
     display: flex;
     gap: 0.25rem;
 }
+#breadcrumbs ul li a span{
+    color: var(--primary-accessible);
+}
+
 
 
 #scroll-up{
@@ -793,6 +797,10 @@ body.aboutMe section#lang ul{
     gap: 1rem;
 }
 
+body.aboutMe section#faqs svg{
+    max-width: 100%;
+}
+
 @media (min-width: 992px) {
     .two-cols{
         flex-direction: row;
@@ -849,18 +857,15 @@ body.aboutMe section#academy article small{
 
 body.aboutMe section#jobs article i,
 body.aboutMe section#academy article i{
-    background-color: var(--primary-accessible);
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    color: var(--page-bg);
+    color:  var(--primary-accessible);
     display: flex;
     justify-content: center;
     align-items: center;
     aspect-ratio: 1;
-    width: 32px;
-    height: 32px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 10rem;
 }
 

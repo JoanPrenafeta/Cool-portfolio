@@ -55,7 +55,7 @@ function applyTranslations() {
             } else if (element.tagName.toLowerCase() === 'title') {
                 document.title = translation; 
             } else {
-                element.textContent = translation;
+                element.innerHTML = translation;
             }
         }
     });
