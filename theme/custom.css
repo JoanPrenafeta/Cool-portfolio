@@ -59,7 +59,7 @@
     --laptop-break: 992px;
     --desktop-break: 1200px;
 
-    --table-th-bg: var(--secondary-accessible);
+    --table-th-bg: var(--primary-accessible);
     --table-th-color: var(--page-bg);
 }
 p{
