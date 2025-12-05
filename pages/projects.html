@@ -23,8 +23,8 @@
     <link rel="manifest" href="../img/favicon/site.webmanifest" />
 </head>
 
-<body class="aboutMe">
-    <header>
+<body class="projects">
+    <header id="header">
             <div>
               <a href="#main" class="sr-only" id="main-redirection" target="_self" data-i18n-key="skip_to_main_content">Anar al contingut principal</a>
               <a href="https://joanprenafeta.github.io/Cool-portfolio/" target="_top" id="site-logo" class="h3" title="Anar a la pàgina principal">TOAN</a>
@@ -94,29 +94,130 @@
             </li>
           </ul>
         </nav>
-        <h1 data-i18n-key="projects" class="sr-only">Projectes</h1>
-        <table class="responsiveTable">
-          <thead>
-            <tr>
-              <th>Responsive</th>
-              <th>Table</th>
-              <th>Example</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td data-header="Responsive">Lorem</td>
-              <td data-header="Table">Ipsum</td>
-              <td data-header="Example">Dolor</td>
-              <td data-header="Responsive"><div>
-                <a href="" target="_blank">
-                    <i class="fa-solid fa-star"></i>
-                    <span class="sr-only">Aemet</span></a>
-              </div></td>
-            </tr>
-          </tbody>
-        </table>
+         <section id="projects">
+            <div>
+                <h1 data-i18n-key="projects_title" class="h2">Projectes</h1>
+                <p class="description" data-i18n-key="projects_description">No puc dir els projectes en els quals he treballat. Però aquí us deixo les principals tasques.</p>
+            </div>
+            <ul id="projects-list" class="unstyled-list" aria-label="">
+                <li>
+                    <article class="project-item"> 
+                        <i class="fa-solid fa-universal-access" data-i18n-attr="alt" data-i18n-key="project_accessibility_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_accessibility_name">Control d'accessibilitat</p>
+                        <p class="project-item-description" data-i18n-key="project_accessibility_description">He fet diversos controls per garantir que els llocs web assoleixen les pautes WCAG</p>
+                    </article>
+                </li> 
+                <li>
+                    <article class="project-item highlight">
+                        <i class="fa-brush fa-solid" data-i18n-attr="alt" data-i18n-key="project_uxui_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_uxui_name">Disseny UX&UI i maquetació</p>
+                        <p class="project-item-description" data-i18n-key="project_uxui_description">He dissenyat algunes de les webs d'institucions públiques més importants que poden arribar fins a 100.000 visitants mensuals.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="project-item">
+                        <i class="fa-solid fa-code" data-i18n-attr="alt" data-i18n-key="project_programming_name"></i>
+                        <p class="h5 font-base project-item-name" data-i18n-key="project_programming_name">Programació</p>
+                        <p class="project-item-description" data-i18n-key="project_programming_description">He treballat com a programador tant front-end com back-end en diferents programaris per gestionar hospitals i veterinàries.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section id="challenges">
+          <h2>Solucions destacades</h2>
+          <p class="description">El que si que puc mostrar es els principals reptes dels que he trobat una solució útil.</p>
+          <ul class="unstyled-list">
+            <li>
+              <article>
+                <header>
+                  <h3>Taula responsive</h3>
+                </header>
+                <h4>Quin era el principal repte?</h4>
+                <p>Vestibulum vestibulum semper nunc vestibulum aliquam. Proin consequat porttitor nunc ut viverra. Nam justo eros, tincidunt sed diam et, malesuada varius leo. Phasellus ut</p>
+                <h4>Quina solució vaig proposar?</h4>
+                <p>Donec eget congue erat, nec pulvinar mi. Nam faucibus suscipit elit, ut ornare risus mattis vel. Pellentesque mattis, ante sed ultrices porta, justo mauris sollicitudin justo, auctor tristique est dui eget lorem. Vivamus at orci elementum, laoreet leo et, hendrerit eros. Quisque vehicula purus vitae orci dapibus, ac imperdiet sem faucibus. Etiam posuere orci id nibh tincidunt commodo. Proin id pulvinar purus, non molestie enim. Etiam accumsan, dui sed faucibus commodo, nisi lorem elementum dui, ut auctor orci ligula id leo. Maecenas iaculis finibus nibh ut sagittis.</p>
+                <table class="responsive-table">
+           <thead>
+             <tr>
+               <th>Responsive</th>
+               <th>Table</th>
+               <th>Example</th>
+               <th>Actions</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td data-label="Responsive">Lorem</td>
+               <td data-label="Table">Ipsum</td>
+               <td data-label="Example">Dolor</td>
+               <td data-label="Responsive"><div>
+                 <a href="" target="_blank">
+                     <i class="fa-solid fa-star"></i>
+                     <span class="sr-only">Aemet</span></a>
+               </div></td>
+             </tr>
+             <tr>
+               <td data-label="Responsive">Lorem</td>
+               <td data-label="Table">Ipsum</td>
+               <td data-label="Example">Dolor</td>
+               <td data-label="Responsive"><div>
+                 <a href="" target="_blank">
+                     <i class="fa-solid fa-star"></i>
+                     <span class="sr-only">Aemet</span></a>
+               </div></td>
+             </tr>
+             <tr>
+               <td data-label="Responsive">Lorem</td>
+               <td data-label="Table">Ipsum</td>
+               <td data-label="Example">Dolor</td>
+               <td data-label="Responsive"><div>
+                 <a href="" target="_blank">
+                     <i class="fa-solid fa-star"></i>
+                     <span class="sr-only">Aemet</span></a>
+               </div></td>
+             </tr>
+             <tr>
+               <td data-label="Responsive">Lorem</td>
+               <td data-label="Table">Ipsum</td>
+               <td data-label="Example">Dolor</td>
+               <td data-label="Responsive"><div>
+                 <a href="" target="_blank">
+                     <i class="fa-solid fa-star"></i>
+                     <span class="sr-only">Aemet</span></a>
+               </div></td>
+             </tr>
+           </tbody>
+          </table>
+              </article>
+            </li>
+
+             <li>
+              <article>
+                <header>
+                  <h3>Accessible contrast checker</h3>
+                </header>
+                <h4>Quin era el principal repte?</h4>
+                <p>Vestibulum vestibulum semper nunc vestibulum aliquam. Proin consequat porttitor nunc ut viverra. Nam justo eros, tincidunt sed diam et, malesuada varius leo. Phasellus ut</p>
+                <h4>Quina solució vaig proposar?</h4>
+                <p>Donec eget congue erat, nec pulvinar mi. Nam faucibus suscipit elit, ut ornare risus mattis vel. Pellentesque mattis, ante sed ultrices porta, justo mauris sollicitudin justo, auctor tristique est dui eget lorem. Vivamus at orci elementum, laoreet leo et, hendrerit eros. Quisque vehicula purus vitae orci dapibus, ac imperdiet sem faucibus. Etiam posuere orci id nibh tincidunt commodo. Proin id pulvinar purus, non molestie enim. Etiam accumsan, dui sed faucibus commodo, nisi lorem elementum dui, ut auctor orci ligula id leo. Maecenas iaculis finibus nibh ut sagittis.</p>
+                <a href="https://joanprenafeta.github.io/Awesome-Tools/tools/ColorContrastAccessibilityTest.html" target="_blank" title="Anar a l'eina Contrast checker. Obra una nova pestanya.">Contrast checker</a>
+              </article>
+            </li>
+
+             <li>
+              <article>
+                <header>
+                  <h3>System variables</h3>
+                </header>
+                <h4>Quin era el principal repte?</h4>
+                <p>Vestibulum vestibulum semper nunc vestibulum aliquam. Proin consequat porttitor nunc ut viverra. Nam justo eros, tincidunt sed diam et, malesuada varius leo. Phasellus ut</p>
+                <h4>Quina solució vaig proposar?</h4>
+                <p>Donec eget congue erat, nec pulvinar mi. Nam faucibus suscipit elit, ut ornare risus mattis vel. Pellentesque mattis, ante sed ultrices porta, justo mauris sollicitudin justo, auctor tristique est dui eget lorem. Vivamus at orci elementum, laoreet leo et, hendrerit eros. Quisque vehicula purus vitae orci dapibus, ac imperdiet sem faucibus. Etiam posuere orci id nibh tincidunt commodo. Proin id pulvinar purus, non molestie enim. Etiam accumsan, dui sed faucibus commodo, nisi lorem elementum dui, ut auctor orci ligula id leo. Maecenas iaculis finibus nibh ut sagittis.</p>
+                <a href="https://joanprenafeta.github.io/Awesome-Tools/tools/variables/index.html" target="_blank" title="Anar a l'eina System variables. Obra una nova pestanya.">System variables</a>
+              </article>
+            </li>
+          </ul>
+        </section>
     </main>
 
     <footer>

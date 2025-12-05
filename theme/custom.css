@@ -58,6 +58,9 @@
     --tablet-break: 768px;
     --laptop-break: 992px;
     --desktop-break: 1200px;
+
+    --table-th-bg: var(--secondary-accessible);
+    --table-th-color: var(--page-bg);
 }
 p{
     margin-top: 0;
@@ -241,8 +244,8 @@ a span{
     color: var(--link-color);
 }
 
-header a,
-header a span{
+#header a,
+#header a span{
     color: var(--primary-accessible);
 }
 
@@ -354,8 +357,8 @@ a#main-redirection:focus{
     clip: unset;
 }
 
-/* Header */
-header{
+/* #header */
+#header{
     padding: 10px 40px;
     display: flex;
     flex-direction: column;
@@ -365,36 +368,36 @@ header{
     background: var(--page-bg);
 }
 
-header a#site-logo{
+#header a#site-logo{
     color: var(--primary-accessible);
     font-weight: 800;
 }
-header a#site-logo:hover,
-header a#site-logo:focus{
+#header a#site-logo:hover,
+#header a#site-logo:focus{
     color: var(--link-color-hover);
     text-decoration: underline;
 }
-header nav ul{
+#header nav ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 18px;
 }
-header nav ul li{
+#header nav ul li{
     text-align: center;
 }
-header nav ul li a[aria-selected="true"]{
+#header nav ul li a[aria-selected="true"]{
     font-weight: 700;
 }
 @media (min-width: 992px) {
-    header{
+    #header{
         position: sticky;
         top: 0;
         z-index: 1;
         flex-direction: row;
         justify-content: space-between;
     }
-    header nav ul{
+    #header nav ul{
         flex-direction: row;
     }
 }
@@ -450,26 +453,27 @@ body.portada main section#splash-section #avatarSVG{
     }
 }
 
-body.portada main section#projects{
+body main section#projects{
     background-color: color-mix(in srgb, var(--primary-brand) 10%, var(--page-bg));
     padding-top: var(--big-gap);
     padding-bottom: var(--big-gap);
 }
 
-body.dark.portada main section#projects{
+body.dark main section#projects{
         background-color: color-mix(in srgb, var(--text-color) 3%, var(--page-bg));        
     }
 
-body.portada main section#projects >div{
+body main section#projects >div{
     margin-bottom: 24px;
 }
 
-body.portada main section#projects ul#projects-list{
+body main section#projects ul#projects-list{
     display: flex;
     flex-direction: column;
     gap: var(--base-gap);
+    margin-bottom: 0;
 }
-body.portada main section#projects ul#projects-list .project-item{
+body main section#projects ul#projects-list .project-item{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -480,7 +484,7 @@ body.portada main section#projects ul#projects-list .project-item{
     padding: 20px;
 }
 
-body.portada main section#projects ul#projects-list .project-item i{
+body main section#projects ul#projects-list .project-item i{
     color: var(--page-bg);
     background-color: var(--primary-accessible);
     display: flex;
@@ -494,22 +498,22 @@ body.portada main section#projects ul#projects-list .project-item i{
     margin-top: -10px;
     margin-left: -10px;
 }
-body.portada main section#projects ul#projects-list .project-item-description{
+body main section#projects ul#projects-list .project-item-description{
     margin: 0;
 }
 
-body.portada main section#projects ul#projects-list .project-item a::before{
+body main section#projects ul#projects-list .project-item a::before{
     content:"";
     position: absolute;
     inset: 0;
 }
 
-body.portada main section#projects ul#projects-list .project-item.highlight i{
+body main section#projects ul#projects-list .project-item.highlight i{
     background-color: var(--page-bg);
     color: var(--primary-accessible);
 }
 
-body.portada main section#projects ul#projects-list .project-item.highlight{
+body main section#projects ul#projects-list .project-item.highlight{
     color: var(--page-bg);
     background-color: var(--primary-accessible);
     box-shadow: var(--base-shadow);
@@ -517,7 +521,7 @@ body.portada main section#projects ul#projects-list .project-item.highlight{
 
 /*Tablet*/
 @media (min-width: 768px) {
-    body.portada main section#projects ul#projects-list{
+    body main section#projects ul#projects-list{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -823,7 +827,8 @@ body.aboutMe section#faqs svg{
 
 body.aboutMe section#jobs article,
 body.aboutMe section#academy article,
-body.aboutMe section#lang article{
+body.aboutMe section#lang article,
+body.projects main section#challenges article{
     border-radius: var(--radius-xl);
     padding: 1rem;
     border: 1px solid color-mix(in srgb, var(--text-color) 10%, var(--page-bg));
@@ -837,7 +842,8 @@ body.aboutMe section#lang article{
 
 body.aboutMe section#jobs article h3,
 body.aboutMe section#academy article h3,
-body.aboutMe section#lang article h3{
+body.aboutMe section#lang article h3,
+body.projects main section#challenges article h3{
     font-size: var(--font-size-h6);
     margin-bottom: 0.25rem;
     margin-right: 0.8rem;
@@ -845,12 +851,14 @@ body.aboutMe section#lang article h3{
 
 body.aboutMe section#jobs article p,
 body.aboutMe section#academy article p,
-body.aboutMe section#lang article p{
+body.aboutMe section#lang article p,
+body.projects main section#challenges article p{
     margin-bottom: 0;
 }
 
 body.aboutMe section#jobs article small,
-body.aboutMe section#academy article small{
+body.aboutMe section#academy article small,
+body.projects main section#challenges article a{
     font-weight: bold;
     text-align: end;
 }
@@ -869,5 +877,14 @@ body.aboutMe section#academy article i{
     border-radius: 10rem;
 }
 
+body.projects main section#projects{
+    padding: 1rem!important;
+    border-radius: var(--radius-xl);
+}
+
+
+body.projects main section#challenges ul li+li{
+    margin-top: 1rem!important;
+}
 
 
