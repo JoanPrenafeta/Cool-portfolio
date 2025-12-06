@@ -186,4 +186,15 @@
 <string id="challenge_4_result_p1">I achieved &lt;strong&gt;extreme scalability&lt;/strong&gt;. A developer or designer can select the layout, typography, rounding, and margins of a new portal in a matter of minutes. We went from designing to &lt;strong&gt;configuring&lt;/strong&gt;, saving hours of design and development on every new project, with the added guarantee of consistent accessibility.</string>
 <string id="challenge_4_link_text">System variables</string>
 <string id="challenge_4_link_title">Go to the System variables tool. Opens in a new tab.</string>
+<string id="skill_advanced_1">UX Design</string>
+<string id="skill_advanced_2">WCAG Accessibility</string>
+<string id="skill_advanced_3">UI Design</string>
+<string id="skill_advanced_4">Front-End Development</string>
+<string id="skill_advanced_5">Layout Architecture</string>
+<string id="skill_advanced_6">Design Systems</string>
+<string id="skill_advanced_7">Problem Solving</string>
+<string id="skill_advanced_8">Information Architecture</string>
+<string id="skill_advanced_9">Prototyping and Interface Validation</string>
+<string id="skill_advanced_10">Confidentiality Management</string>
+<string id="skill_advanced_11">UX Writing</string>
 </translations>

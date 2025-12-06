@@ -184,4 +184,15 @@
 <string id="challenge_4_result_p1">私は&lt;strong&gt;究極のスケーラビリティ&lt;/strong&gt;を達成しました。開発者またはデザイナーは、数分で新しいポータルのレイアウト、タイポグラフィ、丸み、およびマージンを選択できます。私たちは設計から&lt;strong&gt;構成&lt;/strong&gt;へと移行し、一貫したアクセシビリティの追加保証とともに、新しいプロジェクトごとに設計と開発の時間を節約しました。</string>
 <string id="challenge_4_link_text">システム変数</string>
 <string id="challenge_4_link_title">システム変数ツールに移動します。新しいタブで開きます。</string>
+<string id="skill_advanced_1">UXデザイン</string>
+<string id="skill_advanced_2">WCAGアクセシビリティ</string>
+<string id="skill_advanced_3">UIデザイン</string>
+<string id="skill_advanced_4">フロントエンド開発</string>
+<string id="skill_advanced_5">レイアウトアーキテクチャ</string>
+<string id="skill_advanced_6">デザインシステム</string>
+<string id="skill_advanced_7">問題解決</string>
+<string id="skill_advanced_8">情報アーキテクチャ</string>
+<string id="skill_advanced_9">プロトタイピングとインターフェース検証</string>
+<string id="skill_advanced_10">機密管理</string>
+<string id="skill_advanced_11">UXライティング</string>
 </translations>

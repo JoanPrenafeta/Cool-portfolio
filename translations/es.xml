@@ -187,5 +187,16 @@
 <string id="challenge_4_result_p1">Logré una &lt;strong&gt;escalabilidad extrema&lt;/strong&gt;. Un developer o diseñador puede seleccionar el layout, la tipografía, el redondeo y los márgenes de un nuevo portal en cuestión de minutos. Pasamos de diseñar a &lt;strong&gt;configurar&lt;/strong&gt;, ahorrando horas de diseño y desarrollo en cada nuevo proyecto, con la garantía añadida de una accesibilidad consistente.</string>
 <string id="challenge_4_link_text">System variables</string>
 <string id="challenge_4_link_title">Ir a la herramienta System variables. Abre una nueva pestaña.</string>
+<string id="skill_advanced_1">Diseño UX</string>
+<string id="skill_advanced_2">Accesibilidad WCAG</string>
+<string id="skill_advanced_3">Diseño UI</string>
+<string id="skill_advanced_4">Desarrollo Front-End</string>
+<string id="skill_advanced_5">Arquitectura de maquetación</string>
+<string id="skill_advanced_6">Sistemas de Diseño</string>
+<string id="skill_advanced_7">Resolución de problemas</string>
+<string id="skill_advanced_8">Arquitectura de la información</string>
+<string id="skill_advanced_9">Prototipado y validación de interfaces</string>
+<string id="skill_advanced_10">Gestión de la confidencialidad</string>
+<string id="skill_advanced_11">Redacción UX</string>
 
 </translations>

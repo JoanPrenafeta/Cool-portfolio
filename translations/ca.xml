@@ -70,7 +70,7 @@
     <string id="about_me_p1_full">Sóc un &lt;strong&gt;dissenyador d'UX/UI&lt;/strong&gt; amb experiència en desenvolupament front-end.Anteriorment, vaig treballar com a desenvolupador Full Stack, tot i que sempre em va atraure més el &lt;strong&gt;front-end&lt;/strong&gt;, especialment el disseny d'UX/UI. Per això, vaig decidir especialitzar-me, i ara porto diversos anys creant experiències d'usuari intuïtives i atractives.</string>
 
     <string id="whyToan_title">Per què &lt;strong&gt;TOAN&lt;/strong&gt;?</string>
-    <string id="whyToan_p1">El naming de la meva marca professional és Toan. Aquesta tria no és arbitrària, sinó que es basa en un vincle personal i emocional que reforça directament la filosofia de la meva marca: la confiança i l'acompanyament al llarg del procés. Toan no és una invenció aleatòria, sinó una paraula amb una càrrega emocional profunda i personal. El seu origen es remunta a la meva infantesa, quan tenia dificultats per pronunciar la lletra ‘J' i em referia a mi mateix com a "Toan" en lloc de "Joan". Aquesta petita peculiaritat es va convertir en un sobrenom afectuós utilitzat pels meus éssers estimats més propers, un símbol de suport i acceptació incondicional.</string>
+    <string id="whyToan_p1">El naming de la meva marca professional és Toan. Aquesta tria no és arbitrària, sinó que es basa en un vincle personal i emocional que reforça directament la filosofia de la meva marca: la confiança i l'acompanyament al llarg del procés. Toan no és una invenció aleatòria, sinó una paraula amb una càrrega emocional profunda i personal. El seu origen es remunta a la meva infantesa, quan tenia dificultats per pronunciar la lletra 'J' i em referia a mi mateix com a "Toan" en lloc de "Joan". Aquesta petita peculiaritat es va convertir en un sobrenom afectuós utilitzat pels meus éssers estimats més propers, un símbol de suport i acceptació incondicional.</string>
     <string id="whyToan_p2">Anys més tard, aquest nom va adquirir una nova dimensió quan la meva parella va començar a fer servir "Toan" de manera afectuosa, sense conèixer la història de quan era petit. Aquesta coincidència va confirmar el seu significat per a mi: el nom simbolitza ara un camí de suport constant, confiança i fidelitat.</string>
     <string id="whyToan_p3_intro">En el context professional, Toan es converteix en la veu de la meva marca i el pilar de la meva proposta de valor:</string>
     <string id="whyToan_list_acompaniment_title">Promesa d'acompanyament:</string>
@@ -188,4 +188,16 @@
 <string id="challenge_4_result_p1">Vaig aconseguir una &lt;strong&gt;escalabilitat extrema&lt;/strong&gt;. Un developer o dissenyador pot seleccionar el layout, la tipografia, l'arrodoniment i els marges d'un nou portal en qüestió de minuts. Vam passar de dissenyar a &lt;strong&gt;configurar&lt;/strong&gt;, estalviant hores de disseny i desenvolupament en cada nou projecte, amb la garantia afegida d'una accessibilitat consistent.</string>
 <string id="challenge_4_link_text">System variables</string>
 <string id="challenge_4_link_title">Anar a l'eina System variables. Obra una nova pestanya.</string>
+
+<string id="skill_advanced_1">UX Design</string>
+<string id="skill_advanced_2">Accessibilitat WCAG</string>
+<string id="skill_advanced_3">UI Design</string>
+<string id="skill_advanced_4">Front-End development</string>
+<string id="skill_advanced_5">Arquitectura de maquetació</string>
+<string id="skill_advanced_6">Design Systems</string>
+<string id="skill_advanced_7">Resolució de problemes</string>
+<string id="skill_advanced_8">Arquitectura de la informació</string>
+<string id="skill_advanced_9">Prototipat i validació d'interfícies</string>
+<string id="skill_advanced_10">Gestió de la confidencialitat</string>
+<string id="skill_advanced_11">UX Writing</string>
 </translations>
