@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
     <string id="page_title">ジョアン・プレナフェタ | クールなポートフォリオ</string>
-
+    <string id="page_title_aboutMe">自己紹介 | ジョアン・プレナフェタ | クールなポートフォリオ</string>
+    <string id="page_title_projects">プロジェクト | ジョアン・プレナフェタ | クールなポートフォリオ</string>
     <string id="skip_to_main_content">メインコンテンツへスキップ</string>
     <string id="header_site_logo_title">メインページへ移動</string>
     <string id="nav_projects">プロジェクト</string>

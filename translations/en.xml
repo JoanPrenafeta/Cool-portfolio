@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
     <string id="page_title">Joan Prenafeta | Cool portfolio</string>
-
+    <string id="page_title_aboutMe">About me | Joan Prenafeta | Cool portfolio</string>
+    <string id="page_title_projects">Projects | Joan Prenafeta | Cool portfolio</string>
     <string id="skip_to_main_content">Skip to main content</string>
     <string id="header_site_logo_title">Go to the main page</string>
     <string id="nav_projects">Projects</string>

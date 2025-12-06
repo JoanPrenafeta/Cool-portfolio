@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
     <string id="page_title">Joan Prenafeta | Cool portfolio</string>
-
+    <string id="page_title_aboutMe">Sobre mi | Joan Prenafeta | Cool portfolio</string>
+    <string id="page_title_projects">Projectes | Joan Prenafeta | Cool portfolio</string>
     <string id="skip_to_main_content">Anar al contingut principal</string>
     <string id="header_site_logo_title">Anar a la pàgina principal</string>
     <string id="nav_projects">Projectes</string>
@@ -63,7 +64,6 @@
     <string id="toggle_theme_sr_only">Canvia entre mode clar i fosc</string>
     <string id="go_top">Torna a la part superior de la pàgina</string>
 
-    <string id="page_title_aboutMe">Sobre mi | Joan Prenafeta | Cool portfolio</string>
     <string id="inici">Inici</string>
     <string id="about_me">Sobre mi</string>
 

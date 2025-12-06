@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
     <string id="page_title">Joan Prenafeta | Cool portfolio</string>
+    <string id="page_title_aboutMe">Sobre mi | Joan Prenafeta | Cool portfolio</string>
+    <string id="page_title_projects">Proyectos | Joan Prenafeta | Cool portfolio</string>
 
     <string id="skip_to_main_content">Ir al contenido principal</string>
     <string id="header_site_logo_title">Ir a la página principal</string>
