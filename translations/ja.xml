@@ -112,5 +112,75 @@
     <string id="lang_es_p">私の母国語です。&lt;strong&gt;C1&lt;/strong&gt;に相当します。</string>
     <string id="lang_en_p">大学の学位で、&lt;strong&gt;B2&lt;/strong&gt;に相当するものを習得しました。</string>
     <string id="lang_ja_p">初級レベルで、&lt;strong&gt;N5&lt;/strong&gt;の準備をしています。</string>
+<string id="challenges_title">主要なソリューション</string>
+<string id="challenges_description">私が提供できるのは、解決策を見つけた主要な課題です。</string>
 
+<string id="challenge_1_h3">&lt;h3&gt;クールなポートフォリオ&lt;/h3&gt;</string>
+<string id="challenge_1_description">最高機密プロジェクト（航空宇宙および公共機関）での作業は、私の仕事の大部分が機密であることを意味します。課題は、機密情報を表示せずに、私の&lt;strong&gt;UX、UI、フロントエンド、およびアクセシビリティ&lt;/strong&gt;のスキルをどのように証明するかでした。解決策は単純な理論上のモックアップではいけません。それは&lt;strong&gt;生きた、アクセス可能な製品&lt;/strong&gt;でなければなりませんでした。</string>
+<string id="challenge_1_h4_obstacle">障害は何でしたか？</string>
+<string id="challenge_1_obstacle_p1">市場はしばしば「何を」（最終結果）示すことに基づいていますが、「どのように」（プロセスと創意工夫）を示すことには基づいていませんでした。私の不満は、機密ソリューションの背後にある技術的な深さを伝えることができなかったことです。美しいデザインだけでなく、&lt;strong&gt;機能的で、アクセス可能で、大胆なコード&lt;/strong&gt;を示すためのキャンバスが必要でした。</string>
+<string id="challenge_1_h4_fix">そして、どのように修正しましたか？</string>
+<string id="challenge_1_fix_p1">私はこのポートフォリオポータル自体を、私の最も野心的なプロジェクトとして作成しました。それは、最高レベルで私の能力を実証する&lt;strong&gt;ゼロから構築された機能的な例&lt;/strong&gt;です。</string>
+<string id="challenge_1_ol_li1_h4">アクセシビリティの擁護者</string>
+<string id="challenge_1_ol_li1_p">このポータルは、ライトモードとダークモードの両方で、&lt;strong&gt;WCAG トリプル AAA&lt;/strong&gt;のアクセシビリティレベルに準拠しています。これは、包括的なデザインに対する私の優先順位を強く示しています。</string>
+<string id="challenge_1_ol_li2_h4">ユニークな体験の約束:</string>
+<string id="challenge_1_ol_li2_p">私のアクセス可能なカラーパレットジェネレーターの力を実証するために、&lt;strong&gt;ポータルがロードされるたびに&lt;/strong&gt;、完全に新しいプライマリカラーが生成され、それからユニークでアクセス可能なパレットが構築されます。これは、エンドユーザー（およびあなた）との私の接し方が常に&lt;strong&gt;ユニークで排他的&lt;/strong&gt;であることを伝えます。</string>
+<string id="challenge_1_ol_li3_h4">オリジナリティの課題:</string>
+<string id="challenge_1_ol_li3_p">私は日本の考え方に共感しています。誰かがそれをしたなら、私もそれを学ぶことができます。しかし、誰もそれをしなかったなら、私が最初にそれを達成しなければなりません。このポートフォリオは、私が積極的に既知の限界を克服しようとしていることの証明です。</string>
+<string id="challenge_1_h4_result">結果と共有への恐れ:</string>
+<string id="challenge_1_result_p1">&lt;strong&gt;自分のツールのコードを公開することに恐れがありますか？&lt;/strong&gt; 答えは断固として&lt;strong&gt;ありません&lt;/strong&gt;。</string>
+<string id="challenge_1_result_p2">私の目標は二重です。まず、&lt;strong&gt;私が何ができるか&lt;/strong&gt;、そしてどのように課題に立ち向かうかを示すこと。そして第二に、&lt;strong&gt;アクセシビリティを促進すること&lt;/strong&gt;です。誰かが私のコードを参考にしてくれれば、私は誇りに思います。そして、誰かがそれを改善してくれれば、私はまだ多くを学ぶことができることを示してくれます。</string>
+<string id="challenge_1_result_p3">このポートフォリオは、&lt;strong&gt;謙虚さと野心の表明&lt;/strong&gt;であり、優れていて100％アクセス可能なユーザー体験を創造するための強固な基盤です。</string>
+
+<string id="challenge_2_h3">&lt;h3&gt;アクセス可能なコントラストチェッカー&lt;/h3&gt;</string>
+<string id="challenge_2_description">WCAG標準に準拠する必要があることは誰もが知っていますが、現実には、コントラストエラーが1つあるだけで、パレット全体（暗いバリアント、明るいバリアント、ホバー状態など）を再計算する必要があり、手動エラーの可能性に満ちた遅いプロセスになります。航空宇宙や行政のような要求の厳しい環境で、速度、一貫性、信頼性を提供してくれるツールが必要でした。</string>
+<string id="challenge_2_h4_obstacle">障害は何でしたか？</string>
+<string id="challenge_2_obstacle_p1">市場には多くのコントラスト計算機がありますが、それらはすべて「準拠していません」または「準拠しています」と言うことにとどまっています。問題は、エラーメッセージの後にデザインチームと開発チームが費やさなければならない労力でした。</string>
+<string id="challenge_2_obstacle_p2">目標は、検証するだけでなく、その場で解決策を提案することでした。私たちの仕事の試行錯誤のループを排除するためには、さらに進む必要がありました。</string>
+<string id="challenge_2_h4_fix">そして、どのように修正しましたか？</string>
+<string id="challenge_2_fix_p1">私は独自の自律的なツールを開発することにしました。このコントラストチェックは、単なる計算機としてではなく、&lt;strong&gt;統合パレットアシスタント&lt;/strong&gt;として機能します。</string>
+<string id="challenge_2_ol_li1_h4">インテリジェントな検証:</string>
+<string id="challenge_2_ol_li1_p">実際のコントラストを表示し、単純なレベルセレクターで必要なWCAG標準（A、AA、またはAAA）を選択できます。</string>
+<string id="challenge_2_ol_li2_h4">自動修正:</string>
+<string id="challenge_2_ol_li2_p">比率が失敗した場合、ツールは自動的に、要求された標準に準拠する元の色に最も近い色を提案します。</string>
+<string id="challenge_2_ol_li3_h4">完全なパレット生成:</string>
+<string id="challenge_2_ol_li3_p">修正されたメインカラーから、ツールは即座に完全なアクセス可能なパレット（メインカラー、コントラストカラー、暗い/明るいバリアント）と、すべてのコンポーネントが明るい背景と暗い背景でアクセス可能であるために必要な最小限のバリエーションを生成します。</string>
+<string id="challenge_2_h4_result">結果:</string>
+<string id="challenge_2_result_p1">法的準拠とエラーのないアクセシビリティを保証しただけでなく、ツールが開発者が直接実装できるready-to-codeパレットを提供するため、作業時間を節約しました。</string>
+<string id="challenge_2_link_text">コントラストチェッカー</string>
+<string id="challenge_2_link_title">コントラストチェッカーツールに移動します。新しいタブで開きます。</string>
+
+<string id="challenge_3_h3">&lt;h3&gt;レスポンシブテーブル&lt;/h3&gt;</string>
+<string id="challenge_3_description">複雑なデータテーブルは、モバイルデザインにおける永遠の課題です。迅速なオプションは&lt;strong&gt;横スクロール&lt;/strong&gt;ですが、これは悪い体験（UX）であるだけでなく、多くの場合&lt;strong&gt;WCAG 1.4.10（リフロー）ガイドラインを無効にし&lt;/strong&gt;、ユーザーに2次元で移動することを強制します。データが重要である行政プロジェクトでは、&lt;strong&gt;100％アクセス可能で視覚的に優れた&lt;/strong&gt;ソリューションが必要です。</string>
+<string id="challenge_3_h4_obstacle">障害は何でしたか？</string>
+<string id="challenge_3_obstacle_p1">主な障害は、テーブルが変換されたときに各データの&lt;strong&gt;意味論的なコンテキスト&lt;/strong&gt;を維持することでした。モバイルビューでは、ユーザーは列のタイトルの参照を失い、複雑なデータの読み取りを非効率的でイライラするものにしていました。</string>
+<string id="challenge_3_obstacle_p2">さらに、ほとんどのソリューションは&lt;strong&gt;画面&lt;/strong&gt;に基づくメディアクエリに依存しており、テーブルが狭いコンテナにある場合には無効であり、デザインのモジュール性を破っていました。</string>
+<string id="challenge_3_h4_fix">そして、どのように修正しましたか？</string>
+<string id="challenge_3_fix_p1">私はインテリジェントなフロントエンドソリューションを実装し、モバイルビューでテーブルの各行を&lt;strong&gt;垂直カード&lt;/strong&gt;に変換しました。このソリューションは視覚的であるだけでなく、データのアクセシビリティも保証します。</string>
+<string id="challenge_3_ol_li1_h4">データラベルによる意味論的な強化:</string>
+<string id="challenge_3_ol_li1_p">各データセルに、元の列のタイトルを含む &lt;code&gt;data-label=""&lt;/code&gt; 属性を追加しました。これにより、意味論的な関係が失われず、スクリーンリーダーでアクセス可能な状態を維持します。</string>
+<string id="challenge_3_ol_li2_h4">コンテナベースの変換:</string>
+<string id="challenge_3_ol_li2_p">グローバルなビューポートに依存する代わりに、&lt;strong&gt;コンテナクエリ&lt;/strong&gt;（&lt;code&gt;@container&lt;/code&gt;）を使用しました。これにより、テーブルはコンテナ（&lt;code&gt;.responsive-table-wrapper&lt;/code&gt;）の実際の幅を検出し、スペースが縮小された場合にのみ変換されます。</string>
+<string id="challenge_3_ol_li3_h4">モジュール式な視覚化:</string>
+<string id="challenge_3_ol_li3_p">小さなビューでは、各行がブロックに変換されます（display: flex; flex-direction: column;）。列のタイトルは、&lt;code&gt;data-label&lt;/code&gt; の内容を使用して擬似要素（&lt;code&gt;td::before&lt;/code&gt;）として挿入され、線形で明確な読み取りを提供します。</string>
+<string id="challenge_3_h4_result">結果:</string>
+<string id="challenge_3_result_p1">WCAGリフロースタンダードに準拠し、横方向のスライドの必要性を排除して、優れたユーザー体験を提供しました。&lt;strong&gt;コンテナクエリ&lt;/strong&gt;を使用した実装により、このテーブルはあらゆるレイアウトコンテキストで100％モジュール式で一貫性があることが保証されます。</string>
+<string id="challenge_3_table_responsive_heading_actions">アクション</string>
+
+<string id="challenge_4_h3">&lt;h3&gt;システム変数&lt;/h3&gt;</string>
+<string id="challenge_4_description">複数のクライアントと製品（特に行政）での作業は、&lt;strong&gt;視覚的な一貫性&lt;/strong&gt;と&lt;strong&gt;開発効率&lt;/strong&gt;を維持するための絶え間ない闘いを意味します。大きな課題は、各コンポーネントをゼロから設計およびコーディングすることなく、各ブランディングに対してユニークで特徴的なデザインを作成することです。複数の製品に役立つ単一のCSSコードベースが必要でした。</string>
+<string id="challenge_4_h4_obstacle">障害は何でしたか？</string>
+<string id="challenge_4_obstacle_p1">このソリューション以前は、新しいポータルのカスタマイズには、色、間隔、タイポグラフィを変更するためのデザインチームの直接的な介入が必要であり、&lt;strong&gt;CSSの重複&lt;/strong&gt;と不一致の高いリスクが発生していました。アクセシビリティレベルを上げるといった要件の変更や修正は、各製品ファイルに手動で適用する必要があったため、費用がかかり、時間がかかりました。</string>
+<string id="challenge_4_h4_fix">そして、どのように修正しましたか？</string>
+<string id="challenge_4_fix_p1">私は、&lt;strong&gt;CSS変数&lt;/strong&gt;（またはデザイントークン）に基づいた&lt;strong&gt;モジュール式レイアウトシステム&lt;/strong&gt;を作成しました。このシステムにより、ベースのCSSに触れることなく、HTMLから直接ポータルまたはアプリケーションの完全な外観をカスタマイズできます。</string>
+<string id="challenge_4_ol_li1_h4">変数による完全なモジュール化:</string>
+<string id="challenge_4_ol_li1_p">すべての主要なCSS（色、間隔、テキストサイズ、ボーダーラディウス）は、&lt;strong&gt;CSS変数&lt;/strong&gt;を使用してモジュール化されました。これは、機能（例：ボタン）は同じですが、その視覚的なスタイルはわずか数行のコードに依存することを意味します。</string>
+<string id="challenge_4_ol_li2_h4">オンザフライのカスタマイズ:</string>
+<string id="challenge_4_ol_li2_p">カスタマイズは、&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; タグにいくつかのクラスを追加することによって行われます（例：&lt;code&gt;&amp;lt;body class="contenedor-full font-serif radius-smooth font-combo-1"&amp;gt;&lt;/code&gt;）。これらのクラスは、グローバルなCSS変数の値を単純に&lt;strong&gt;オーバーライド&lt;/strong&gt;し、ウェブサイト全体の外観を変更します。</string>
+<string id="challenge_4_ol_li3_h4">デフォルトでのアクセシビリティ:</string>
+<string id="challenge_4_ol_li3_p">このアーキテクチャは、選択されたトークンの組み合わせに関係なく、システムが常に公共機関によって要求される&lt;strong&gt;最小限のアクセシビリティレベル&lt;/strong&gt;（コントラスト、フォントサイズ）をデフォルトで維持することを保証します。</string>
+<string id="challenge_4_h4_result">結果:</string>
+<string id="challenge_4_result_p1">私は&lt;strong&gt;究極のスケーラビリティ&lt;/strong&gt;を達成しました。開発者またはデザイナーは、数分で新しいポータルのレイアウト、タイポグラフィ、丸み、およびマージンを選択できます。私たちは設計から&lt;strong&gt;構成&lt;/strong&gt;へと移行し、一貫したアクセシビリティの追加保証とともに、新しいプロジェクトごとに設計と開発の時間を節約しました。</string>
+<string id="challenge_4_link_text">システム変数</string>
+<string id="challenge_4_link_title">システム変数ツールに移動します。新しいタブで開きます。</string>
 </translations>

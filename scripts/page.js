@@ -1,6 +1,6 @@
 var starterPrimary = new Color(Colors.randomColor());
-//generarPaletaCSS("AA", starterPrimary.hex);
-var pagePalette = Colors.generatePalette(starterPrimary.hex);
+
+var pagePalette = Colors.generatePalette(starterPrimary.hex, Colors.accessibilityLevel.aaa);
 document.documentElement.style.setProperty('--primary-brand', pagePalette.basic.hex);
 document.documentElement.style.setProperty('--primary-contrast', pagePalette.contrast.hex);
 document.documentElement.style.setProperty('--primary-dark', pagePalette.dark.hex);
@@ -10,7 +10,7 @@ document.documentElement.style.setProperty('--primary-light-min', pagePalette.li
 
 
 starterPrimary.H = (starterPrimary.H + 180) % 360;
-pagePalette = Colors.generatePalette(starterPrimary.hex);
+pagePalette = Colors.generatePalette(starterPrimary.hex, Colors.accessibilityLevel.aaa);
 
 document.documentElement.style.setProperty('--secondary-brand', pagePalette.basic.hex);
 document.documentElement.style.setProperty('--secondary-contrast', pagePalette.contrast.hex);

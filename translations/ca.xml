@@ -117,5 +117,75 @@
     <string id="lang_es_p">És la meva llengua materna. Seria l'equivalent al &lt;strong&gt;C1&lt;/strong&gt;.</string>
     <string id="lang_en_p">Amb el grau universitari, he adquirit l'equivalent al &lt;strong&gt;B2&lt;/strong&gt;.</string>
     <string id="lang_ja_p">Nivell principiant, m'estic preparant per l' &lt;strong&gt;N5&lt;/strong&gt;.</string>
-    <string id=""></string>
+    <string id="challenges_title">Solucions destacades</string>
+<string id="challenges_description">El que sí que puc mostrar és els principals reptes dels quals he trobat una solució útil.</string>
+
+<string id="challenge_1_h3">&lt;h3&gt;Cool portfolio&lt;/h3&gt;</string>
+<string id="challenge_1_description">Treballar en projectes d'alt secret (aeronàutica espacial i administració pública) significa que gran part de la meva feina és confidencial. El repte era com demostrar les meves habilitats d'&lt;strong&gt;UX, UI, Front-End i Accessibilitat&lt;/strong&gt; sense mostrar pantalles embargades. La solució no podia ser un simple mockup teòric; havia de ser un &lt;strong&gt;producte viu&lt;/strong&gt; i accessible.</string>
+<string id="challenge_1_h4_obstacle">On era el pal a la roda?</string>
+<string id="challenge_1_obstacle_p1">El mercat es basa sovint a mostrar el "què" (el resultat final), però no el "com" (el procés i l'enginy). La meva frustració era que no podia transmetre la profunditat tècnica darrere de cada solució confidencial. Necessitava un llenç on mostrar no només un disseny bonic, sinó &lt;strong&gt;codi funcional, accessible i audaç&lt;/strong&gt;.</string>
+<string id="challenge_1_h4_fix">I com ho vaig arreglar?</string>
+<string id="challenge_1_fix_p1">He creat aquest mateix portal de portfoliocom el meu projecte més ambiciós: un &lt;strong&gt;exemple funcional des de zero&lt;/strong&gt; que demostra les meves competències en el nivell més alt.</string>
+<string id="challenge_1_ol_li1_h4">Defensor d'accessibilitat</string>
+<string id="challenge_1_ol_li1_p">Aquest portal compleix el nivell d'accessibilitat &lt;strong&gt;WCAG Triple AAA&lt;/strong&gt;, tant en el mode clar com en el mode fosc. Això és una declaració ferma de la meva prioritat per un disseny inclusiu.</string>
+<string id="challenge_1_ol_li2_h4">La promesa de l'experiència única:</string>
+<string id="challenge_1_ol_li2_p">Per demostrar la potència del meu generador de paleta de colors accessible, &lt;strong&gt;cada vegada que es carrega el portal&lt;/strong&gt;, es genera un color primari completament nou i, a partir d'aquest, es construeix una paleta accessible única. Això transmet que el meu tracte amb l'usuari final (i amb tu) serà sempre &lt;strong&gt;únic i exclusiu&lt;/strong&gt;.</string>
+<string id="challenge_1_ol_li3_h4">El repte de l'originalitat:</string>
+<string id="challenge_1_ol_li3_p">M'identifico amb la mentalitat japonesa: si algú ho ha fet, jo també puc aprendre a fer-ho; però si ningú no ho ha fet, he de ser el primer a aconseguir-ho. Aquest portfolioés la meva prova que busco activament superar els límits coneguts.</string>
+<string id="challenge_1_h4_result">Resultat i la por de compartir:</string>
+<string id="challenge_1_result_p1">&lt;strong&gt;Em fa por deixar el codi de les meves eines públic?&lt;/strong&gt; La resposta és un rotund &lt;strong&gt;No&lt;/strong&gt;.</string>
+<string id="challenge_1_result_p2">El meu objectiu és doble: primer, &lt;strong&gt;mostrar el que puc fer&lt;/strong&gt; i com m'enfronto als reptes. I segon, &lt;strong&gt;fomentar l'accessibilitat&lt;/strong&gt;. Si algú fa servir el meu codi com a punt de referència, em sento orgullós. I si algú el millora, m'estarà demostrant que encara puc aprendre molt.</string>
+<string id="challenge_1_result_p3">Aquest portfolioés un &lt;strong&gt;manifest d'humilitat i ambició&lt;/strong&gt;: una base sòlida per crear experiències d'usuari superiors i 100% accessibles.</string>
+
+<string id="challenge_2_h3">&lt;h3&gt;Accessible contrast checker&lt;/h3&gt;</string>
+<string id="challenge_2_description">Tothom sap que cal complir amb els estàndards WCAG, però la realitat és que un sol error de contrast obliga a recalcular tota la paleta (variants fosques, variants clares, estats hover...) en un procés lent i ple de possibles errors manuals. Necessitàvem una eina que ens donés velocitat, consistència i fiabilitat en un entorn tan exigent com l'aeronàutica i l'administració.</string>
+<string id="challenge_2_h4_obstacle">On era el pal a la roda?</string>
+<string id="challenge_2_obstacle_p1">Hi ha moltes calculadores de contrast al mercat, però totes es limiten a dir-te "No compleix" o "Sí que compleix". El problema era l'esforç que l'equip de disseny i desenvolupament havia d'invertir després del missatge d'error.</string>
+<string id="challenge_2_obstacle_p2">L'objectiu no era només validar, sinó proposar la solució al mateix moment. Calia anar més enllà per eliminar el bucle de trial and error de la nostra feina.</string>
+<string id="challenge_2_h4_fix">I com ho vaig arreglar?</string>
+<string id="challenge_2_fix_p1">Vaig decidir desenvolupar la meva pròpia eina autònoma. Aquest control de contrast funciona com un &lt;strong&gt;Assistent integral de paletes&lt;/strong&gt;, i no només com una simple calculadora:</string>
+<string id="challenge_2_ol_li1_h4">Verificació intel·ligent:</string>
+<string id="challenge_2_ol_li1_p">Mostra el contrast real i permet seleccionar l'estàndard WCAG requerit (A, AA o AAA) amb un simple selector de nivell.</string>
+<string id="challenge_2_ol_li2_h4">Correcció automàtica:</string>
+<string id="challenge_2_ol_li2_p">Si la ràtio falla, l'eina suggereix automàticament el color més similar a l'original que sí que compleix l'estàndard demanat.</string>
+<string id="challenge_2_ol_li3_h4">Generació de paleta completa:</string>
+<string id="challenge_2_ol_li3_p">A partir del color principal corregit, l'eina genera instantàniament la paleta accessible completa (color principal, color de contrast, variants fosques/clares) i les variacions mínimes necessàries perquè tots els components siguin accessibles sobre fons clars i foscos.</string>
+<string id="challenge_2_h4_result">Resultat:</string>
+<string id="challenge_2_result_p1">No només vam garantir el compliment legal i l'accessibilitat sense marge d'error, sinó que vam estalviar hores de feina, ja que l'eina lliura una paleta ready-to-code que el developer pot implementar directament.</string>
+<string id="challenge_2_link_text">Contrast checker</string>
+<string id="challenge_2_link_title">Anar a l'eina Contrast checker. Obra una nova pestanya.</string>
+
+<string id="challenge_3_h3">&lt;h3&gt;Taula responsive&lt;/h3&gt;</string>
+<string id="challenge_3_description">Les taules de dades complexes són un repte etern en el disseny mòbil. L'opció ràpida és l'&lt;strong&gt;scroll horitzontal&lt;/strong&gt;, però no només és una mala experiència (UX), sinó que sovint &lt;strong&gt;invalida la pauta WCAG 1.4.10 (Reflow)&lt;/strong&gt;, obligant l'usuari a moure's en dues dimensions. Per projectes de l'administració, on la claredat de la dada és crucial, necessitem solucions que siguin &lt;strong&gt;100% accessibles i visualment superiors&lt;/strong&gt;.</string>
+<string id="challenge_3_h4_obstacle">On era el pal a la roda?</string>
+<string id="challenge_3_obstacle_p1">El principal obstacle era mantenir el &lt;strong&gt;context semàntic&lt;/strong&gt; de cada dada quan la taula es transformava. En la vista mòbil, l'usuari perd la referència del títol de columna, fent la lectura de dades complexes ineficient i frustrant.</string>
+<string id="challenge_3_obstacle_p2">A més, la majoria de les solucions depenen d'un Media Query basat en la &lt;strong&gt;pantalla&lt;/strong&gt;, cosa que no és vàlida quan la taula es troba en un contenidor estret, trencant la modularitat del disseny.</string>
+<string id="challenge_3_h4_fix">I com ho vaig arreglar?</string>
+<string id="challenge_3_fix_p1">Vaig implementar una solució de front-end intel·ligent, convertint cada fila de la taula en una &lt;strong&gt;targeta vertical&lt;/strong&gt; a la vista mòbil. Aquesta solució no només és més visual, sinó que garanteix l'accessibilitat de la dada:</string>
+<string id="challenge_3_ol_li1_h4">Enriquiment semàntic amb data-Labels:</string>
+<string id="challenge_3_ol_li1_p">A cada cel·la de dades, hi vaig afegir un atribut &lt;code&gt;data-label=""&lt;/code&gt; que conté el títol de columna original. Això garanteix que la relació semàntica no es perdi, i es manté accessible per a lectors de pantalla.</string>
+<string id="challenge_3_ol_li2_h4">Transformació basada en contenidor:</string>
+<string id="challenge_3_ol_li2_p">En lloc de dependre del viewport global, vaig utilitzar &lt;strong&gt;Container Queries&lt;/strong&gt; (&lt;code&gt;@container&lt;/code&gt;). Així, la taula detecta l'amplada real del seu contenidor (&lt;code&gt;.responsive-table-wrapper&lt;/code&gt;) i només es transforma quan l'espai és reduït.</string>
+<string id="challenge_3_ol_li3_h4">Visualització modular:</string>
+<string id="challenge_3_ol_li3_p">A la vista petita, cada fila es transforma en un bloc (display: flex; flex-direction: column;). El títol de columna s'insereix com un pseudoelement (&lt;code&gt;td::before&lt;/code&gt;) utilitzant el contingut del &lt;code&gt;data-label&lt;/code&gt;, oferint una lectura lineal i clara.</string>
+<string id="challenge_3_h4_result">Resultat:</string>
+<string id="challenge_3_result_p1">Vaig complir amb l'estàndard WCAG Reflow, i oferir una experiència d'usuari superior, eliminant la necessitat de lliscaments laterals. La implementació amb &lt;strong&gt;Container Queries&lt;/strong&gt; assegura que aquesta taula sigui 100% modular i consistent en qualsevol context de maquetació.</string>
+<string id="challenge_3_table_responsive_heading_actions">Accions</string>
+
+<string id="challenge_4_h3">&lt;h3&gt;System variables&lt;/h3&gt;</string>
+<string id="challenge_4_description">Treballar amb múltiples clients i productes (especialment a l'administració) significa una lluita constant per mantenir la &lt;strong&gt;consistència visual&lt;/strong&gt; i l'&lt;strong&gt;eficiència de desenvolupament&lt;/strong&gt;. El gran repte és crear dissenys únics i distintius per a cada brànding sense haver de dissenyar i maquetar cada component de zero. Necessitàvem una única base de codi CSS que pogués servir múltiples productes.</string>
+<string id="challenge_4_h4_obstacle">On era el pal a la roda?</string>
+<string id="challenge_4_obstacle_p1">Abans d'aquesta solució, la personalització d'un nou portal requeria la intervenció directa d'un equip de disseny per canviar colors, espaiats i tipografies, generant &lt;strong&gt;CSS duplicat&lt;/strong&gt; i un risc alt d'inconsistències. Qualsevol modificació o canvi de requisits (com ara pujar el nivell d'accessibilitat) era car i lent, ja que s'havia d'aplicar manualment a cada fitxer de producte.</string>
+<string id="challenge_4_h4_fix">I com ho vaig arreglar?</string>
+<string id="challenge_4_fix_p1">Vaig crear un &lt;strong&gt;Sistema de Maquetació Modular&lt;/strong&gt; basat en &lt;strong&gt;CSS Variables&lt;/strong&gt; (o Design Tokens). Aquest sistema permet personalitzar l'aparença completa d'un portal o aplicació directament des de l'HTML, sense tocar el CSS base.</string>
+<string id="challenge_4_ol_li1_h4">Modularització total amb variables:</string>
+<string id="challenge_4_ol_li1_p">Tot el CSS principal (colors, espaiats, mides de text, border-radius) es va modularitzar utilitzant &lt;strong&gt;variables CSS&lt;/strong&gt;. Això vol dir que la funcionalitat (p. ex., un botó) és la mateixa, però el seu estil visual depèn d'unes poques línies de codi.</string>
+<string id="challenge_4_ol_li2_h4">Personalització on-the-fly:</string>
+<string id="challenge_4_ol_li2_p">La personalització es fa afegint unes poques classes a l'etiqueta &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; (p. ex., &lt;code&gt;&amp;lt;body class="contenedor-full font-serif radius-smooth font-combo-1"&amp;gt;&lt;/code&gt;). Aquestes classes simplement &lt;strong&gt;sobreescriuen&lt;/strong&gt; els valors de les variables CSS globals, canviant l'aparença de tot el lloc web.</string>
+<string id="challenge_4_ol_li3_h4">Accessibilitat per defecte:</string>
+<string id="challenge_4_ol_li3_p">Aquesta arquitectura garanteix que, independentment de la combinació de tokens seleccionada, el sistema sempre manté els &lt;strong&gt;nivells d'accessibilitat mínims&lt;/strong&gt; requerits per l'administració pública (contrastos, mides de font) per defecte.</string>
+<string id="challenge_4_h4_result">Resultat:</string>
+<string id="challenge_4_result_p1">Vaig aconseguir una &lt;strong&gt;escalabilitat extrema&lt;/strong&gt;. Un developer o dissenyador pot seleccionar el layout, la tipografia, l'arrodoniment i els marges d'un nou portal en qüestió de minuts. Vam passar de dissenyar a &lt;strong&gt;configurar&lt;/strong&gt;, estalviant hores de disseny i desenvolupament en cada nou projecte, amb la garantia afegida d'una accessibilitat consistent.</string>
+<string id="challenge_4_link_text">System variables</string>
+<string id="challenge_4_link_title">Anar a l'eina System variables. Obra una nova pestanya.</string>
 </translations>

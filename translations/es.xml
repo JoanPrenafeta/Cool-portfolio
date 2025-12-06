@@ -114,5 +114,76 @@
     <string id="lang_es_p">Es mi lengua materna. Sería el equivalente al &lt;strong&gt;C1&lt;/strong&gt;.</string>
     <string id="lang_en_p">Con el grado universitario, he adquirido el equivalente al &lt;strong&gt;B2&lt;/strong&gt;.</string>
     <string id="lang_ja_p">Nivel principiante, me estoy preparando para el &lt;strong&gt;N5&lt;/strong&gt;.</string>
+    <string id="challenges_title">Soluciones destacadas</string>
+<string id="challenges_description">Lo que sí puedo mostrar son los principales retos para los que he encontrado una solución útil.</string>
+
+<string id="challenge_1_h3">&lt;h3&gt;Cool portfolio&lt;/h3&gt;</string>
+<string id="challenge_1_description">Trabajar en proyectos de alto secreto (aeronáutica espacial y administración pública) significa que gran parte de mi trabajo es confidencial. El reto era cómo demostrar mis habilidades de &lt;strong&gt;UX, UI, Front-End y Accesibilidad&lt;/strong&gt; sin mostrar pantallas embargadas. La solución no podía ser un simple mockup teórico; tenía que ser un &lt;strong&gt;producto vivo&lt;/strong&gt; y accesible.</string>
+<string id="challenge_1_h4_obstacle">¿Dónde estaba el obstáculo?</string>
+<string id="challenge_1_obstacle_p1">El mercado a menudo se basa en mostrar el "qué" (el resultado final), pero no el "cómo" (el proceso y el ingenio). Mi frustración era que no podía transmitir la profundidad técnica detrás de cada solución confidencial. Necesitaba un lienzo donde mostrar no solo un diseño bonito, sino &lt;strong&gt;código funcional, accesible y audaz&lt;/strong&gt;.</string>
+<string id="challenge_1_h4_fix">¿Y cómo lo solucioné?</string>
+<string id="challenge_1_fix_p1">He creado este mismo portal de portafolio como mi proyecto más ambicioso: un &lt;strong&gt;ejemplo funcional desde cero&lt;/strong&gt; que demuestra mis competencias al más alto nivel.</string>
+<string id="challenge_1_ol_li1_h4">Defensor de accesibilidad</string>
+<string id="challenge_1_ol_li1_p">Este portal cumple el nivel de accesibilidad &lt;strong&gt;WCAG Triple AAA&lt;/strong&gt;, tanto en el modo claro como en el modo oscuro. Esto es una declaración firme de mi prioridad por un diseño inclusivo.</string>
+<string id="challenge_1_ol_li2_h4">La promesa de la experiencia única:</string>
+<string id="challenge_1_ol_li2_p">Para demostrar la potencia de mi generador de paleta de colores accesible, &lt;strong&gt;cada vez que se carga el portal&lt;/strong&gt;, se genera un color primario completamente nuevo y, a partir de este, se construye una paleta accesible única. Esto transmite que mi trato con el usuario final (y contigo) será siempre &lt;strong&gt;único y exclusivo&lt;/strong&gt;.</string>
+<string id="challenge_1_ol_li3_h4">El reto de la originalidad:</string>
+<string id="challenge_1_ol_li3_p">Me identifico con la mentalidad japonesa: si alguien lo ha hecho, yo también puedo aprender a hacerlo; pero si nadie lo ha hecho, debo ser el primero en conseguirlo. Este portafolio es mi prueba de que busco activamente superar los límites conocidos.</string>
+<string id="challenge_1_h4_result">Resultado y el miedo a compartir:</string>
+<string id="challenge_1_result_p1">&lt;strong&gt;¿Me da miedo dejar el código de mis herramientas público?&lt;/strong&gt; La respuesta es un rotundo &lt;strong&gt;No&lt;/strong&gt;.</string>
+<string id="challenge_1_result_p2">Mi objetivo es doble: primero, &lt;strong&gt;mostrar lo que puedo hacer&lt;/strong&gt; y cómo me enfrento a los retos. Y segundo, &lt;strong&gt;fomentar la accesibilidad&lt;/strong&gt;. Si alguien usa mi código como punto de referencia, me siento orgulloso. Y si alguien lo mejora, me estará demostrando que todavía puedo aprender mucho.</string>
+<string id="challenge_1_result_p3">Este portafolio es un &lt;strong&gt;manifiesto de humildad y ambición&lt;/strong&gt;: una base sólida para crear experiencias de usuario superiores y 100% accesibles.</string>
+
+<string id="challenge_2_h3">&lt;h3&gt;Accessible contrast checker&lt;/h3&gt;</string>
+<string id="challenge_2_description">Todo el mundo sabe que hay que cumplir con los estándares WCAG, pero la realidad es que un solo error de contraste obliga a recalcular toda la paleta (variantes oscuras, variantes claras, estados hover...) en un proceso lento y lleno de posibles errores manuales. Necesitábamos una herramienta que nos diera velocidad, consistencia y fiabilidad en un entorno tan exigente como la aeronáutica y la administración.</string>
+<string id="challenge_2_h4_obstacle">¿Dónde estaba el obstáculo?</string>
+<string id="challenge_2_obstacle_p1">Hay muchas calculadoras de contraste en el mercado, pero todas se limitan a decirte "No cumple" o "Sí cumple". El problema era el esfuerzo que el equipo de diseño y desarrollo tenía que invertir después del mensaje de error.</string>
+<string id="challenge_2_obstacle_p2">El objetivo no era solo validar, sino proponer la solución en el mismo momento. Había que ir más allá para eliminar el bucle de prueba y error de nuestro trabajo.</string>
+<string id="challenge_2_h4_fix">¿Y cómo lo solucioné?</string>
+<string id="challenge_2_fix_p1">Decidí desarrollar mi propia herramienta autónoma. Este control de contraste funciona como un &lt;strong&gt;Asistente integral de paletas&lt;/strong&gt;, y no solo como una simple calculadora:</string>
+<string id="challenge_2_ol_li1_h4">Verificación inteligente:</string>
+<string id="challenge_2_ol_li1_p">Muestra el contraste real y permite seleccionar el estándar WCAG requerido (A, AA o AAA) con un simple selector de nivel.</string>
+<string id="challenge_2_ol_li2_h4">Corrección automática:</string>
+<string id="challenge_2_ol_li2_p">Si la ratio falla, la herramienta sugiere automáticamente el color más similar al original que sí cumple el estándar solicitado.</string>
+<string id="challenge_2_ol_li3_h4">Generación de paleta completa:</string>
+<string id="challenge_2_ol_li3_p">A partir del color principal corregido, la herramienta genera instantáneamente la paleta accesible completa (color principal, color de contraste, variantes oscuras/claras) y las variaciones mínimas necesarias para que todos los componentes sean accesibles sobre fondos claros y oscuros.</string>
+<string id="challenge_2_h4_result">Resultado:</string>
+<string id="challenge_2_result_p1">No solo garantizamos el cumplimiento legal y la accesibilidad sin margen de error, sino que ahorramos horas de trabajo, ya que la herramienta entrega una paleta ready-to-code que el developer puede implementar directamente.</string>
+<string id="challenge_2_link_text">Contrast checker</string>
+<string id="challenge_2_link_title">Ir a la herramienta Contrast checker. Abre una nueva pestaña.</string>
+
+<string id="challenge_3_h3">&lt;h3&gt;Tabla responsive&lt;/h3&gt;</string>
+<string id="challenge_3_description">Las tablas de datos complejas son un reto eterno en el diseño móvil. La opción rápida es el &lt;strong&gt;scroll horizontal&lt;/strong&gt;, pero no solo es una mala experiencia (UX), sino que a menudo &lt;strong&gt;invalida la pauta WCAG 1.4.10 (Reflow)&lt;/strong&gt;, obligando al usuario a moverse en dos dimensiones. Para proyectos de la administración, donde la claridad del dato es crucial, necesitamos soluciones que sean &lt;strong&gt;100% accesibles y visualmente superiores&lt;/strong&gt;.</string>
+<string id="challenge_3_h4_obstacle">¿Dónde estaba el obstáculo?</string>
+<string id="challenge_3_obstacle_p1">El principal obstáculo era mantener el &lt;strong&gt;contexto semántico&lt;/strong&gt; de cada dato cuando la tabla se transformaba. En la vista móvil, el usuario pierde la referencia del título de columna, haciendo la lectura de datos complejos ineficiente y frustrante.</string>
+<string id="challenge_3_obstacle_p2">Además, la mayoría de las soluciones dependen de un Media Query basado en la &lt;strong&gt;pantalla&lt;/strong&gt;, lo que no es válido cuando la tabla se encuentra en un contenedor estrecho, rompiendo la modularidad del diseño.</string>
+<string id="challenge_3_h4_fix">¿Y cómo lo solucioné?</string>
+<string id="challenge_3_fix_p1">Implementé una solución de front-end inteligente, convirtiendo cada fila de la tabla en una &lt;strong&gt;tarjeta vertical&lt;/strong&gt; en la vista móvil. Esta solución no solo es más visual, sino que garantiza la accesibilidad del dato:</string>
+<string id="challenge_3_ol_li1_h4">Enriquecimiento semántico con data-Labels:</string>
+<string id="challenge_3_ol_li1_p">A cada celda de datos, añadí un atributo &lt;code&gt;data-label=""&lt;/code&gt; que contiene el título de columna original. Esto garantiza que la relación semántica no se pierda, y se mantiene accesible para lectores de pantalla.</string>
+<string id="challenge_3_ol_li2_h4">Transformación basada en contenedor:</string>
+<string id="challenge_3_ol_li2_p">En lugar de depender del viewport global, utilicé &lt;strong&gt;Container Queries&lt;/strong&gt; (&lt;code&gt;@container&lt;/code&gt;). Así, la tabla detecta el ancho real de su contenedor (&lt;code&gt;.responsive-table-wrapper&lt;/code&gt;) y solo se transforma cuando el espacio es reducido.</string>
+<string id="challenge_3_ol_li3_h4">Visualización modular:</string>
+<string id="challenge_3_ol_li3_p">En la vista pequeña, cada fila se transforma en un bloque (display: flex; flex-direction: column;). El título de columna se inserta como un pseudoelement (&lt;code&gt;td::before&lt;/code&gt;) utilizando el contenido del &lt;code&gt;data-label&lt;/code&gt;, ofreciendo una lectura lineal y clara.</string>
+<string id="challenge_3_h4_result">Resultado:</string>
+<string id="challenge_3_result_p1">Cumplí con el estándar WCAG Reflow, y ofrecí una experiencia de usuario superior, eliminando la necesidad de deslizamientos laterales. La implementación con &lt;strong&gt;Container Queries&lt;/strong&gt; asegura que esta tabla sea 100% modular y consistente en cualquier contexto de maquetación.</string>
+<string id="challenge_3_table_responsive_heading_actions">Acciones</string>
+
+<string id="challenge_4_h3">&lt;h3&gt;System variables&lt;/h3&gt;</string>
+<string id="challenge_4_description">Trabajar con múltiples clientes y productos (especialmente en la administración) significa una lucha constante por mantener la &lt;strong&gt;consistencia visual&lt;/strong&gt; y la &lt;strong&gt;eficiencia de desarrollo&lt;/strong&gt;. El gran reto es crear diseños únicos y distintivos para cada branding sin tener que diseñar y maquetar cada componente desde cero. Necesitábamos una única base de código CSS que pudiera servir a múltiples productos.</string>
+<string id="challenge_4_h4_obstacle">¿Dónde estaba el obstáculo?</string>
+<string id="challenge_4_obstacle_p1">Antes de esta solución, la personalización de un nuevo portal requería la intervención directa de un equipo de diseño para cambiar colores, espaciados y tipografías, generando &lt;strong&gt;CSS duplicado&lt;/strong&gt; y un riesgo alto de inconsistencias. Cualquier modificación o cambio de requisitos (como subir el nivel de accesibilidad) era caro y lento, ya que debía aplicarse manualmente a cada archivo de producto.</string>
+<string id="challenge_4_h4_fix">¿Y cómo lo solucioné?</string>
+<string id="challenge_4_fix_p1">Creé un &lt;strong&gt;Sistema de Maquetación Modular&lt;/strong&gt; basado en &lt;strong&gt;CSS Variables&lt;/strong&gt; (o Design Tokens). Este sistema permite personalizar la apariencia completa de un portal o aplicación directamente desde el HTML, sin tocar el CSS base.</string>
+<string id="challenge_4_ol_li1_h4">Modularización total con variables:</string>
+<string id="challenge_4_ol_li1_p">Todo el CSS principal (colores, espaciados, tamaños de texto, border-radius) se modularizó utilizando &lt;strong&gt;variables CSS&lt;/strong&gt;. Esto significa que la funcionalidad (ej., un botón) es la misma, pero su estilo visual depende de unas pocas líneas de código.</string>
+<string id="challenge_4_ol_li2_h4">Personalización on-the-fly:</string>
+<string id="challenge_4_ol_li2_p">La personalización se realiza añadiendo unas pocas clases a la etiqueta &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; (ej., &lt;code&gt;&amp;lt;body class="contenedor-full font-serif radius-smooth font-combo-1"&amp;gt;&lt;/code&gt;). Estas clases simplemente &lt;strong&gt;sobrescriben&lt;/strong&gt; los valores de las variables CSS globales, cambiando la apariencia de todo el sitio web.</string>
+<string id="challenge_4_ol_li3_h4">Accesibilidad por defecto:</string>
+<string id="challenge_4_ol_li3_p">Esta arquitectura garantiza que, independientemente de la combinación de tokens seleccionada, el sistema siempre mantiene los &lt;strong&gt;niveles de accesibilidad mínimos&lt;/strong&gt; requeridos por la administración pública (contrastes, tamaños de fuente) por defecto.</string>
+<string id="challenge_4_h4_result">Resultado:</string>
+<string id="challenge_4_result_p1">Logré una &lt;strong&gt;escalabilidad extrema&lt;/strong&gt;. Un developer o diseñador puede seleccionar el layout, la tipografía, el redondeo y los márgenes de un nuevo portal en cuestión de minutos. Pasamos de diseñar a &lt;strong&gt;configurar&lt;/strong&gt;, ahorrando horas de diseño y desarrollo en cada nuevo proyecto, con la garantía añadida de una accesibilidad consistente.</string>
+<string id="challenge_4_link_text">System variables</string>
+<string id="challenge_4_link_title">Ir a la herramienta System variables. Abre una nueva pestaña.</string>
 
 </translations>

@@ -383,6 +383,10 @@ a#main-redirection:focus{
     flex-wrap: wrap;
     gap: 18px;
 }
+
+#header nav.language-selector ul{
+    flex-direction: row;
+}
 #header nav ul li{
     text-align: center;
 }
@@ -885,6 +889,28 @@ body.projects main section#projects{
 
 body.projects main section#challenges ul li+li{
     margin-top: 1rem!important;
+}
+
+body.projects main section#challenges ul li article h3{
+    font-size: var(--font-size-h5);
+}
+body.projects main section#challenges ul li article h4{
+    font-size: var(--font-size-h6);
+    margin-top: 1rem;
+}
+body.projects main section#challenges ul li article a{
+    border-top: 1px solid color-mix(in srgb, var(--text-color) 10%, var(--page-bg));
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+body.projects main section#challenges ul li article table{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+body.projects main table.responsive-table tr:not(:has(th)):last-of-type{
+    margin-bottom: 0;
 }
 
 
