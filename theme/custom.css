@@ -238,8 +238,19 @@ a{
     text-decoration: none;
     color: var(--link-color);
     transition: var(--base-transition);
+    position: relative;
 }
-
+a::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    min-width: 44px;
+    min-height: 44px;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
 a span{
     color: var(--link-color);
 }
@@ -909,6 +920,13 @@ body.projects main section#challenges ul li article h3{
 body.projects main section#challenges ul li article h4{
     font-size: var(--font-size-h6);
     margin-top: 1rem;
+}
+body.projects main section#challenges ul li article figure{
+    padding: 0;
+    margin-inline: 0;
+}
+body.projects main section#challenges ul li article img{
+    width: 100%;
 }
 body.projects main section#challenges ul li article a{
     border-top: 1px solid color-mix(in srgb, var(--text-color) 10%, var(--page-bg));
