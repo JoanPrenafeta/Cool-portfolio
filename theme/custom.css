@@ -279,12 +279,12 @@ a:hover span{
 }
 
 .btn-primary{
-    background-color: var(--primary-brand);
-    border-color: var(--primary-brand);
-    color: var(--primary-contrast);
+    background-color: var(--primary-accessible);
+    border-color: var(--primary-accessible);
+    color: var(--page-bg);
 }
 .btn-primary *{
-    color: var(--primary-contrast);
+    color: var(--page-bg);
 }
 .btn-primary:hover,
 .btn-primary:focus{
@@ -521,6 +521,18 @@ body main section#projects ul#projects-list .project-item.highlight{
     color: var(--page-bg);
     background-color: var(--primary-accessible);
     box-shadow: var(--base-shadow);
+}
+
+body main section#projects .more-info{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body main section#projects .more-info a{
+    width: fit-content;
 }
 
 /*Tablet*/
